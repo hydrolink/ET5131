@@ -140,7 +140,7 @@ function createFeaturedCard(entry, index) {
   return el('article', {
     className: `card ${rotation}`,
     dataset: { reveal: '', revealDelay: delay },
-    style: { cursor: 'pointer' },
+    style: { cursor: 'var(--cursor-pointer)' },
     onClick: () => { window.location.hash = `/journal/${entry.id}`; }
   },
     el('div', { className: `tape ${tapePos}` }),

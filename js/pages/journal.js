@@ -101,7 +101,7 @@ export function renderEntryDetail(entryId) {
           src: block.src,
           alt: block.alt || '',
           loading: 'lazy',
-          style: { cursor: 'pointer', width: '100%' }
+          style: { cursor: 'var(--cursor-pointer)', width: '100%' }
         }),
         block.caption ? el('figcaption', { className: 'image-caption' }, block.caption) : null
       );
@@ -147,7 +147,7 @@ export function renderEntryDetail(entryId) {
         className: 'entry-hero-image',
         src: entry.heroImage,
         alt: entry.title,
-        style: { cursor: 'pointer' }
+        style: { cursor: 'var(--cursor-pointer)' }
       }),
 
       // Content

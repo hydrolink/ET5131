@@ -106,7 +106,7 @@
   padding: var(--sp-6) var(--sp-4);
   text-align: center;
   transition: all var(--duration-normal) var(--ease-out);
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -362,7 +362,7 @@
   margin-bottom: var(--sp-5);
   display: inline-block;
   width: 100%;
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
   transition: all var(--duration-normal) var(--ease-out);
 }
 

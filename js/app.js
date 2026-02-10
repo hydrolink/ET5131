@@ -18,6 +18,19 @@ import { renderGallery } from './pages/gallery.js';
 import { renderVideos } from './pages/videos.js';
 import { renderTimeline } from './pages/timeline.js';
 
+function initCursorState() {
+  const setOpen = () => document.body.classList.add('cursor-open');
+  const setClose = () => document.body.classList.remove('cursor-open');
+
+  window.addEventListener('mousedown', setOpen);
+  window.addEventListener('mouseup', setClose);
+  window.addEventListener('blur', setClose);
+  window.addEventListener('dragend', setClose);
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) setClose();
+  });
+}
+
 /**
  * Bootstrap the application
  */
@@ -25,7 +38,8 @@ async function init() {
   // 1. Load all data
   await loadAllData();
 
-  // 2. Initialize components
+  // 2. Initialize global behavior + components
+  initCursorState();
   initNavbar();
   initLightbox();
   initLayoutToggle();
