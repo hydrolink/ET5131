@@ -1,0 +1,110 @@
+[
+  {
+    "id": "gal-01",
+    "src": "https://picsum.photos/seed/gallery-mountains/800/600",
+    "thumbnail": "https://picsum.photos/seed/gallery-mountains/400/300",
+    "caption": "Morning light on alpine ridges",
+    "tags": ["mountains", "sunrise", "landscape"],
+    "date": "2025-09-15",
+    "aspectRatio": "4/3"
+  },
+  {
+    "id": "gal-02",
+    "src": "https://picsum.photos/seed/gallery-creek/800/1000",
+    "thumbnail": "https://picsum.photos/seed/gallery-creek/400/500",
+    "caption": "Forest creek through moss-covered stones",
+    "tags": ["water", "forest", "macro"],
+    "date": "2025-08-22",
+    "aspectRatio": "4/5"
+  },
+  {
+    "id": "gal-03",
+    "src": "https://picsum.photos/seed/gallery-elk/800/533",
+    "thumbnail": "https://picsum.photos/seed/gallery-elk/400/267",
+    "caption": "Bull elk in autumn meadow",
+    "tags": ["wildlife", "elk", "autumn"],
+    "date": "2025-10-03",
+    "aspectRatio": "3/2"
+  },
+  {
+    "id": "gal-04",
+    "src": "https://picsum.photos/seed/gallery-mushrooms/800/800",
+    "thumbnail": "https://picsum.photos/seed/gallery-mushrooms/400/400",
+    "caption": "Chanterelle cluster on the forest floor",
+    "tags": ["fungi", "macro", "forest"],
+    "date": "2025-09-28",
+    "aspectRatio": "1/1"
+  },
+  {
+    "id": "gal-05",
+    "src": "https://picsum.photos/seed/gallery-stars/800/533",
+    "thumbnail": "https://picsum.photos/seed/gallery-stars/400/267",
+    "caption": "Milky Way over the desert basin",
+    "tags": ["night-sky", "desert", "landscape"],
+    "date": "2025-10-18",
+    "aspectRatio": "3/2"
+  },
+  {
+    "id": "gal-06",
+    "src": "https://picsum.photos/seed/gallery-fern/800/1100",
+    "thumbnail": "https://picsum.photos/seed/gallery-fern/400/550",
+    "caption": "Unfurling fern frond, backlit",
+    "tags": ["plants", "macro", "forest"],
+    "date": "2025-08-15",
+    "aspectRatio": "3/4"
+  },
+  {
+    "id": "gal-07",
+    "src": "https://picsum.photos/seed/gallery-fog/800/500",
+    "thumbnail": "https://picsum.photos/seed/gallery-fog/400/250",
+    "caption": "Fog filling the valley at dawn",
+    "tags": ["weather", "landscape", "mountains"],
+    "date": "2025-09-10",
+    "aspectRatio": "16/10"
+  },
+  {
+    "id": "gal-08",
+    "src": "https://picsum.photos/seed/gallery-owl/800/900",
+    "thumbnail": "https://picsum.photos/seed/gallery-owl/400/450",
+    "caption": "Barred owl perched in old-growth cedar",
+    "tags": ["wildlife", "birds", "forest"],
+    "date": "2025-11-01",
+    "aspectRatio": "8/9"
+  },
+  {
+    "id": "gal-09",
+    "src": "https://picsum.photos/seed/gallery-waterfall/800/1200",
+    "thumbnail": "https://picsum.photos/seed/gallery-waterfall/400/600",
+    "caption": "Hidden waterfall in the gorge",
+    "tags": ["water", "landscape", "hiking"],
+    "date": "2025-09-20",
+    "aspectRatio": "2/3"
+  },
+  {
+    "id": "gal-10",
+    "src": "https://picsum.photos/seed/gallery-lichen/800/800",
+    "thumbnail": "https://picsum.photos/seed/gallery-lichen/400/400",
+    "caption": "Lichen patterns on granite boulder",
+    "tags": ["macro", "ecology", "geology"],
+    "date": "2025-08-30",
+    "aspectRatio": "1/1"
+  },
+  {
+    "id": "gal-11",
+    "src": "https://picsum.photos/seed/gallery-autumn/800/533",
+    "thumbnail": "https://picsum.photos/seed/gallery-autumn/400/267",
+    "caption": "Aspen grove in peak fall color",
+    "tags": ["autumn", "trees", "landscape"],
+    "date": "2025-10-12",
+    "aspectRatio": "3/2"
+  },
+  {
+    "id": "gal-12",
+    "src": "https://picsum.photos/seed/gallery-campfire/800/600",
+    "thumbnail": "https://picsum.photos/seed/gallery-campfire/400/300",
+    "caption": "Camp journal by firelight",
+    "tags": ["camp", "reflection", "night"],
+    "date": "2025-10-25",
+    "aspectRatio": "4/3"
+  }
+]

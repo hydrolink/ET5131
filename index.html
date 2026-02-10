@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature's Journal — A Scrapbook Learning Journal</title>
+  <meta name="description" content="A cozy, immersive scrapbook experience documenting learning reflections, findings, photos, and videos in a nature-themed digital field journal.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/scrapbook.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/timeline.css">
+  <link rel="stylesheet" href="css/lightbox.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="scrapbook-mode">
+  <!-- Skip to content (accessibility) -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar-inner container">
+      <a href="#/" class="navbar-logo" aria-label="Nature's Journal Home">
+        <svg class="logo-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c1.5 0 3-.3 4.3-.9C13 18 12 14 15 10c2-3 5-4 7-4-.5-2.5-2-4.5-4-6-1.8.5-3.5 1.5-5 3C12 4 12 3 12 2z" fill="currentColor" opacity="0.3"/>
+          <path d="M17 8c-3 4-2 8 1 11 2.5-1.5 4-4.3 4-7.5 0-.5 0-1-.1-1.5C20 10 18.5 9 17 8z" fill="currentColor"/>
+          <path d="M7 14c0-3 2-5.5 5-7-1 2-1.5 4-1 6 .5 2 2 3.5 3.5 4.5-.8.3-1.6.5-2.5.5C8.5 18 7 16.5 7 14z" fill="currentColor" opacity="0.6"/>
+        </svg>
+        <span class="logo-text">Nature's Journal</span>
+      </a>
+
+      <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navbar-menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <ul class="navbar-menu" id="navbar-menu" role="menubar">
+        <li role="none"><a href="#/" class="nav-link" role="menuitem" data-page="home">Home</a></li>
+        <li role="none"><a href="#/journal" class="nav-link" role="menuitem" data-page="journal">Journal</a></li>
+        <li role="none"><a href="#/findings" class="nav-link" role="menuitem" data-page="findings">Findings</a></li>
+        <li role="none"><a href="#/gallery" class="nav-link" role="menuitem" data-page="gallery">Gallery</a></li>
+        <li role="none"><a href="#/videos" class="nav-link" role="menuitem" data-page="videos">Videos</a></li>
+        <li role="none"><a href="#/timeline" class="nav-link" role="menuitem" data-page="timeline">Timeline</a></li>
+      </ul>
+
+      <div class="navbar-actions">
+        <button class="layout-toggle-btn" id="layout-toggle" aria-label="Toggle scrapbook view" title="Toggle scrapbook decorations">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content area -->
+  <main id="main-content" class="main-content" role="main">
+    <div id="app" class="app-container">
+      <!-- Page content rendered here by router -->
+      <div class="loading-screen" aria-label="Loading content">
+        <div class="loading-leaf">🌿</div>
+        <p>Loading journal...</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner container">
+      <div class="footer-doodle footer-doodle-left" aria-hidden="true">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M20 38C10 30 2 24 5 15 8 6 18 4 20 2c2 2 12 4 15 13 3 9-5 15-15 23z" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.3"/></svg>
+      </div>
+      <div class="footer-content">
+        <p class="footer-tagline">Made with 🌿 curiosity and a love for the wild</p>
+        <p class="footer-copy">&copy; 2025–2026 Nature's Journal &middot; A Scrapbook Learning Project</p>
+      </div>
+      <div class="footer-doodle footer-doodle-right" aria-hidden="true">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M8 35C4 28 2 20 10 12c5-5 12-6 16-4s6 8 4 14c-2 6-8 10-14 12" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.3"/><path d="M10 12c2 4 6 6 10 5" stroke="currentColor" stroke-width="1" fill="none" opacity="0.2"/></svg>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox overlay (global, hidden by default) -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <div class="lightbox-backdrop"></div>
+    <button class="lightbox-close" aria-label="Close image viewer">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous image">&#8249;</button>
+    <button class="lightbox-next" aria-label="Next image">&#8250;</button>
+    <div class="lightbox-content">
+      <img class="lightbox-image" src="" alt="">
+      <p class="lightbox-caption"></p>
+      <p class="lightbox-counter"></p>
+    </div>
+  </div>
+
+  <!-- App entry point -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

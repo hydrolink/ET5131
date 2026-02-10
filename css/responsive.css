@@ -1,0 +1,244 @@
+/* ============================================
+   RESPONSIVE BREAKPOINTS
+   Mobile-first overrides
+   ============================================ */
+
+/* ---- Small phones (< 480px) ---- */
+@media (max-width: 479px) {
+  :root {
+    --fs-hero: 2.8rem;
+    --fs-3xl: 2rem;
+  }
+
+  .hero {
+    min-height: 55vh;
+  }
+
+  .hero-content {
+    padding: var(--sp-8) var(--sp-4);
+  }
+
+  .entry-title {
+    font-size: var(--fs-2xl);
+  }
+}
+
+/* ---- Mobile (< 768px) ---- */
+@media (max-width: 767px) {
+  :root {
+    --navbar-height: 56px;
+  }
+
+  .container {
+    padding: 0 var(--sp-4);
+  }
+
+  /* Hamburger nav */
+  .navbar-toggle {
+    display: flex;
+  }
+
+  .navbar-menu {
+    position: fixed;
+    top: var(--navbar-height);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    background: var(--surface);
+    padding: var(--sp-8) var(--sp-6);
+    gap: var(--sp-2);
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform var(--duration-normal) var(--ease-out),
+                opacity var(--duration-normal) var(--ease-out);
+    z-index: var(--z-overlay);
+    border-right: 1px solid var(--border);
+    width: 280px;
+  }
+
+  .nav-open .navbar-menu {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .nav-link {
+    font-size: var(--fs-base);
+    padding: var(--sp-3) var(--sp-4);
+  }
+
+  /* Hamburger animation */
+  .nav-open .hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .nav-open .hamburger-line:nth-child(2) {
+    opacity: 0;
+  }
+  .nav-open .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  /* Quick tiles: 2 columns */
+  .quick-tiles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quick-tiles .quick-tile:last-child {
+    grid-column: span 2;
+  }
+
+  /* Journal: single column */
+  .journal-grid {
+    column-count: 1;
+  }
+
+  /* Gallery: single column */
+  .gallery-masonry {
+    column-count: 1;
+  }
+
+  /* Findings: single column */
+  .pinned-grid,
+  .findings-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Videos: single column */
+  .videos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Featured: single column */
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Timeline: single column */
+  .timeline-container::before {
+    left: 20px;
+  }
+
+  .timeline-dot {
+    left: 20px;
+  }
+
+  .timeline-node--left,
+  .timeline-node--right {
+    flex-direction: row;
+    padding-right: 0;
+    padding-left: 50px;
+  }
+
+  .timeline-node--left .timeline-card::after,
+  .timeline-node--right .timeline-card::after {
+    left: -8px;
+    right: auto;
+    border-left: 0;
+    border-right: 8px solid var(--card);
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+  }
+
+  /* Entry navigation */
+  .entry-nav {
+    flex-direction: column;
+    gap: var(--sp-4);
+  }
+
+  .entry-nav-link {
+    max-width: 100%;
+  }
+
+  .entry-nav-next {
+    text-align: left;
+  }
+
+  /* Reduce scrapbook decorations on mobile */
+  .scrapbook-mode .tape {
+    display: none;
+  }
+
+  .scrapbook-mode .paper-clip {
+    display: none;
+  }
+
+  .scrapbook-mode .stamp {
+    display: none;
+  }
+
+  .scrapbook-mode .doodle {
+    display: none;
+  }
+
+  .hero-doodle {
+    display: none;
+  }
+
+  /* Lightbox */
+  .lightbox-prev,
+  .lightbox-next {
+    width: 40px;
+    height: 40px;
+    font-size: var(--fs-xl);
+  }
+
+  .lightbox-prev { left: var(--sp-2); }
+  .lightbox-next { right: var(--sp-2); }
+
+  .lightbox-image {
+    max-height: 70vh;
+  }
+
+  /* Filter bar */
+  .filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filter-bar .search-container {
+    max-width: none;
+  }
+}
+
+/* ---- Tablet (768px - 1023px) ---- */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Journal: 2 columns */
+  .journal-grid {
+    column-count: 2;
+  }
+
+  /* Gallery: 2 columns */
+  .gallery-masonry {
+    column-count: 2;
+  }
+
+  /* Findings: 2 columns */
+  .findings-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pinned-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .quick-tiles {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ---- Desktop (1024px+) ---- */
+@media (min-width: 1024px) {
+  /* All defaults already set for desktop:
+     3-column masonry, 3-column grids, full decorations */
+}
+
+/* ---- Large desktop (1280px+) ---- */
+@media (min-width: 1280px) {
+  .gallery-masonry {
+    column-count: 4;
+  }
+}

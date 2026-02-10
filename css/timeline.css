@@ -1,0 +1,207 @@
+/* ============================================
+   TIMELINE
+   Vertical chronological view
+   ============================================ */
+
+.timeline-container {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--sp-8) 0;
+}
+
+/* Central vertical line */
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    var(--border) 5%,
+    var(--border) 95%,
+    transparent 100%
+  );
+  transform: translateX(-50%);
+}
+
+/* Year/month group */
+.timeline-group {
+  margin-bottom: var(--sp-8);
+}
+
+.timeline-group-label {
+  position: relative;
+  text-align: center;
+  margin-bottom: var(--sp-8);
+  z-index: 2;
+}
+
+.timeline-group-label span {
+  display: inline-block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: var(--sp-2) var(--sp-5);
+  border-radius: var(--radius-full);
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  color: var(--primary);
+  font-weight: var(--fw-semi);
+}
+
+/* Timeline node */
+.timeline-node {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: var(--sp-8);
+}
+
+/* Dot on the center line */
+.timeline-dot {
+  position: absolute;
+  left: 50%;
+  top: var(--sp-5);
+  width: 14px;
+  height: 14px;
+  background: var(--primary);
+  border: 3px solid var(--bg);
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  box-shadow: 0 0 0 3px var(--primary-dim);
+  transition: all var(--duration-normal);
+}
+
+.timeline-node:hover .timeline-dot {
+  transform: translateX(-50%) scale(1.3);
+  box-shadow: 0 0 0 5px var(--primary-dim);
+}
+
+/* Alternating sides — class-based to avoid nth-child parity issues with group labels */
+.timeline-node--left {
+  flex-direction: row;
+  padding-right: calc(50% + var(--sp-8));
+}
+
+.timeline-node--right {
+  flex-direction: row-reverse;
+  padding-left: calc(50% + var(--sp-8));
+}
+
+/* Timeline card */
+.timeline-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--sp-5);
+  width: 100%;
+  position: relative;
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+.timeline-card:hover {
+  border-color: var(--primary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+/* Arrow pointing to center line */
+.timeline-node--left .timeline-card::after {
+  content: '';
+  position: absolute;
+  right: -8px;
+  top: var(--sp-5);
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid var(--card);
+}
+
+.timeline-node--right .timeline-card::after {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: var(--sp-5);
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid var(--card);
+}
+
+.timeline-date {
+  font-size: var(--fs-xs);
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: var(--fw-semi);
+  margin-bottom: var(--sp-2);
+}
+
+.timeline-icon {
+  font-size: var(--fs-lg);
+  margin-bottom: var(--sp-2);
+}
+
+.timeline-title {
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  color: var(--text);
+  margin-bottom: var(--sp-2);
+}
+
+.timeline-description {
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  line-height: var(--lh-normal);
+  margin-bottom: var(--sp-3);
+}
+
+.timeline-link {
+  font-size: var(--fs-sm);
+  color: var(--primary);
+  font-weight: var(--fw-medium);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1);
+  transition: color var(--duration-fast);
+}
+
+.timeline-link:hover {
+  color: var(--primary-hover);
+}
+
+.timeline-link::after {
+  content: '→';
+  transition: transform var(--duration-fast);
+}
+
+.timeline-link:hover::after {
+  transform: translateX(3px);
+}
+
+/* Start / End markers */
+.timeline-start,
+.timeline-end {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  padding: var(--sp-4) 0;
+}
+
+.timeline-start span,
+.timeline-end span {
+  display: inline-block;
+  background: var(--primary-dim);
+  border: 1px solid var(--primary);
+  padding: var(--sp-2) var(--sp-5);
+  border-radius: var(--radius-full);
+  font-family: var(--font-display);
+  font-size: var(--fs-md);
+  color: var(--primary);
+}

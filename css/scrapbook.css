@@ -1,0 +1,329 @@
+/* ============================================
+   SCRAPBOOK EFFECTS
+   Torn paper, tape, clips, stamps, rotations
+   ============================================ */
+
+/* ---- POLAROID FRAME ---- */
+.polaroid {
+  background: var(--polaroid-bg);
+  padding: var(--sp-3);
+  padding-bottom: var(--sp-8);
+  box-shadow: var(--shadow-paper);
+  position: relative;
+  transition: transform var(--duration-normal) var(--ease-out),
+              box-shadow var(--duration-normal) var(--ease-out);
+}
+
+.scrapbook-mode .polaroid {
+  transform: rotate(var(--rotate, 0deg));
+}
+
+.polaroid:hover {
+  box-shadow: var(--shadow-paper-hover);
+  z-index: 2;
+}
+
+.scrapbook-mode .polaroid:hover {
+  transform: rotate(0deg) scale(1.02) translateY(-4px);
+}
+
+.polaroid-image {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  display: block;
+}
+
+.polaroid-caption {
+  font-family: var(--font-display);
+  font-size: var(--fs-md);
+  color: #3A4A45;
+  text-align: center;
+  margin-top: var(--sp-2);
+  line-height: var(--lh-snug);
+}
+
+/* ---- TAPE STRIPS ---- */
+.tape {
+  position: absolute;
+  width: 70px;
+  height: 24px;
+  background: linear-gradient(
+    135deg,
+    rgba(230, 218, 180, 0.45) 0%,
+    rgba(230, 218, 180, 0.25) 50%,
+    rgba(230, 218, 180, 0.4) 100%
+  );
+  border-radius: 2px;
+  z-index: 5;
+  pointer-events: none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  opacity: 0;
+  transition: opacity var(--duration-normal);
+}
+
+.scrapbook-mode .tape {
+  opacity: 1;
+}
+
+.tape::before {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 3px,
+    rgba(255,255,255,0.15) 3px,
+    rgba(255,255,255,0.15) 4px
+  );
+  border-radius: 1px;
+}
+
+.tape-top-left {
+  top: -8px;
+  left: 12px;
+  transform: rotate(-18deg);
+}
+
+.tape-top-right {
+  top: -8px;
+  right: 12px;
+  transform: rotate(15deg);
+}
+
+.tape-top-center {
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-2deg);
+}
+
+.tape-bottom-left {
+  bottom: -8px;
+  left: 20px;
+  transform: rotate(12deg);
+}
+
+/* Washi tape variant — colorful */
+.tape-washi {
+  height: 18px;
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(125, 168, 138, 0.35) 0px,
+    rgba(125, 168, 138, 0.35) 8px,
+    rgba(197, 180, 149, 0.35) 8px,
+    rgba(197, 180, 149, 0.35) 16px
+  );
+  border-top: 1px dashed rgba(255,255,255,0.15);
+  border-bottom: 1px dashed rgba(255,255,255,0.15);
+}
+
+/* ---- PAPER CLIP ---- */
+.paper-clip {
+  position: absolute;
+  width: 28px;
+  height: 56px;
+  z-index: 6;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--duration-normal);
+}
+
+.scrapbook-mode .paper-clip {
+  opacity: 1;
+}
+
+.paper-clip svg {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(1px 2px 2px rgba(0,0,0,0.25));
+}
+
+.paper-clip-top-right {
+  top: -16px;
+  right: 16px;
+  transform: rotate(8deg);
+}
+
+.paper-clip-top-left {
+  top: -14px;
+  left: 12px;
+  transform: rotate(-5deg);
+}
+
+/* ---- STAMP ---- */
+.stamp {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 4;
+  transition: opacity var(--duration-normal);
+}
+
+.scrapbook-mode .stamp {
+  opacity: 0.2;
+}
+
+.stamp-circle {
+  width: 100%;
+  height: 100%;
+  border: 3px solid var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-15deg);
+}
+
+.stamp-circle::before {
+  content: 'FIELD NOTES';
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: 2px;
+  color: var(--primary);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.stamp-circle::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1.5px solid var(--primary);
+  border-radius: 50%;
+}
+
+.stamp-tr {
+  top: var(--sp-4);
+  right: var(--sp-4);
+}
+
+.stamp-br {
+  bottom: var(--sp-4);
+  right: var(--sp-4);
+}
+
+/* ---- TORN PAPER EDGES ---- */
+.torn-edge-bottom {
+  position: relative;
+}
+
+.torn-edge-bottom::after {
+  content: '';
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  right: 0;
+  height: 14px;
+  background: inherit;
+  clip-path: polygon(
+    0% 0%, 3% 60%, 5% 20%, 8% 70%, 11% 30%, 14% 65%,
+    17% 15%, 20% 55%, 24% 25%, 27% 70%, 30% 10%, 33% 60%,
+    36% 35%, 40% 75%, 43% 20%, 46% 55%, 50% 30%, 53% 70%,
+    56% 15%, 59% 60%, 62% 40%, 65% 75%, 68% 20%, 71% 55%,
+    74% 35%, 77% 70%, 80% 25%, 83% 65%, 86% 15%, 89% 50%,
+    92% 30%, 95% 70%, 97% 40%, 100% 0%
+  );
+  z-index: 3;
+  pointer-events: none;
+}
+
+.torn-edge-top {
+  position: relative;
+}
+
+.torn-edge-top::before {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: 0;
+  right: 0;
+  height: 14px;
+  background: inherit;
+  clip-path: polygon(
+    0% 100%, 3% 40%, 6% 80%, 9% 30%, 12% 70%, 15% 35%,
+    18% 85%, 21% 45%, 25% 75%, 28% 30%, 31% 80%, 34% 40%,
+    37% 65%, 41% 25%, 44% 80%, 47% 45%, 50% 70%, 53% 30%,
+    56% 85%, 59% 40%, 62% 60%, 65% 25%, 68% 80%, 71% 45%,
+    74% 65%, 77% 30%, 80% 75%, 83% 35%, 86% 85%, 89% 50%,
+    92% 70%, 95% 30%, 98% 60%, 100% 100%
+  );
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* ---- STICKY NOTE ---- */
+.sticky-note {
+  background: var(--sticky-note-bg);
+  border-left: 4px solid var(--primary);
+  padding: var(--sp-5) var(--sp-6);
+  position: relative;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin: var(--sp-6) 0;
+}
+
+.scrapbook-mode .sticky-note {
+  transform: rotate(var(--rotate, -0.5deg));
+  box-shadow: var(--shadow-sm);
+}
+
+.sticky-note-title {
+  font-family: var(--font-display);
+  font-size: var(--fs-xl);
+  color: var(--primary);
+  margin-bottom: var(--sp-3);
+}
+
+/* ---- DOODLE DECORATIONS ---- */
+.doodle {
+  position: absolute;
+  pointer-events: none;
+  color: var(--primary);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity var(--duration-slow);
+}
+
+.scrapbook-mode .doodle {
+  opacity: 0.12;
+}
+
+/* ---- CARD ROTATION VARIANTS ---- */
+.scrapbook-mode .rotate-1  { --rotate: -2.2deg; }
+.scrapbook-mode .rotate-2  { --rotate: 1.5deg; }
+.scrapbook-mode .rotate-3  { --rotate: -1deg; }
+.scrapbook-mode .rotate-4  { --rotate: 2deg; }
+.scrapbook-mode .rotate-5  { --rotate: -0.5deg; }
+.scrapbook-mode .rotate-6  { --rotate: 1.8deg; }
+.scrapbook-mode .rotate-7  { --rotate: -1.5deg; }
+.scrapbook-mode .rotate-8  { --rotate: 0.8deg; }
+
+/* ---- PAPER TEXTURE OVERLAY ---- */
+.paper-texture {
+  position: relative;
+}
+
+.scrapbook-mode .paper-texture::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 2;
+  border-radius: inherit;
+}
+
+/* ---- MOUNTED PHOTO (dark card with photo taped on) ---- */
+.mounted-photo {
+  background: var(--card);
+  border-radius: var(--radius-md);
+  padding: var(--sp-6);
+  position: relative;
+  box-shadow: var(--shadow-md);
+}
+
+.scrapbook-mode .mounted-photo {
+  box-shadow: var(--shadow-lg);
+}
