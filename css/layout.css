@@ -175,6 +175,7 @@ body {
 }
 
 .app-container {
+  padding-top: var(--sp-8);
   padding-bottom: var(--sp-16);
 }
 
