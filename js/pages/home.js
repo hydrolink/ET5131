@@ -17,7 +17,7 @@ export function renderHome() {
     el('section', { className: 'hero', 'aria-label': 'Welcome' },
       el('div', {
         className: 'hero-bg',
-        style: { backgroundImage: 'url(https://picsum.photos/seed/nature-hero/1400/800)' }
+        style: { backgroundImage: 'url(/assets/photos/20260207_vidacity_wefie.jpg)' }
       }),
 
       // Decorative doodles
@@ -50,9 +50,9 @@ export function renderHome() {
       }),
 
       el('div', { className: 'hero-content' },
-        el('h1', { className: 'hero-title' }, "Nature's Journal"),
+        el('h1', { className: 'hero-title' }, "BugBoom x ET5131"),
         el('p', { className: 'hero-subtitle' },
-          'A collection of moments in the wild — reflections, findings, and photographs from a season of learning outdoors.'
+          'Black soldier fly larvae, food leftovers, and bold student founders come together in a living laboratory of circular innovation. This journal captures not just what we saw, but how our thinking about entrepreneurship, impact, and sustainability began to change.'
         ),
         el('div', { className: 'hero-cta' },
           el('a', { className: 'btn btn-primary btn-lg', href: '#/journal' }, 'Start Reading →')
