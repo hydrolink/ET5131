@@ -1,3 +1,6 @@
 # Claude MCP Configuration
 .claude/
 .vercel
+
+# macOS
+.DS_Store
