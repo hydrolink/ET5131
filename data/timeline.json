@@ -1,82 +1,60 @@
-[
-  {
-    "id": "tl-01",
-    "date": "2025-08-01",
-    "title": "Project Kickoff",
-    "description": "Defined the scope of the nature learning journal. Chose study sites, set up field equipment, and outlined the key questions we wanted to explore over the coming months.",
-    "icon": "🚀",
-    "entryId": null
-  },
-  {
-    "id": "tl-02",
-    "date": "2025-08-10",
-    "title": "First Soil Study",
-    "description": "Completed the first detailed soil profile analysis. Discovered rich mycorrhizal networks and documented over 20 invertebrate species in a single plot.",
-    "icon": "🌱",
-    "entryId": "soil-stories"
-  },
-  {
-    "id": "tl-03",
-    "date": "2025-08-22",
-    "title": "Creek Ecosystem Discovery",
-    "description": "Found a hidden creek ecosystem beneath old-growth cedars. Documented caddisfly larvae, salamanders, and a complex food web in a tiny habitat.",
-    "icon": "💧",
-    "entryId": "the-hidden-creek"
-  },
-  {
-    "id": "tl-04",
-    "date": "2025-09-05",
-    "title": "Weather Reading Week",
-    "description": "Began a week-long experiment predicting weather using only natural observation. No apps, no forecasts — just clouds, wind, and barometric pressure.",
-    "icon": "☁️",
-    "entryId": "weather-patterns"
-  },
-  {
-    "id": "tl-05",
-    "date": "2025-09-15",
-    "title": "Summit Sunrise",
-    "description": "Completed the dawn summit hike. Documented alpine conditions and captured the golden light moment that became one of our most memorable field experiences.",
-    "icon": "🏔️",
-    "entryId": "dawn-at-the-summit"
-  },
-  {
-    "id": "tl-06",
-    "date": "2025-09-28",
-    "title": "Fungi Explosion",
-    "description": "After three days of autumn rain, cataloged fourteen mushroom species in a single afternoon. Discovered honey fungus rhizomorphs connecting multiple trees.",
-    "icon": "🍄",
-    "entryId": "mushroom-kingdom"
-  },
-  {
-    "id": "tl-07",
-    "date": "2025-10-03",
-    "title": "Elk Tracking Success",
-    "description": "Three days of patient tracking led to observing a herd of thirty elk in their autumn grazing meadow. Practiced wildlife observation protocols.",
-    "icon": "🦌",
-    "entryId": "tracking-the-elk-herd"
-  },
-  {
-    "id": "tl-08",
-    "date": "2025-10-18",
-    "title": "Desert Stargazing",
-    "description": "Drove to a dark sky location for a night of unassisted astronomy. Identified constellations, Jupiter's moons, and experienced the full Milky Way arc.",
-    "icon": "⭐",
-    "entryId": "night-sky-journal"
-  },
-  {
-    "id": "tl-09",
-    "date": "2025-11-02",
-    "title": "Old-Growth Pilgrimage",
-    "description": "Visited a rare old-growth grove with 500-year-old Douglas firs. Reflected on conservation, timescale, and what it means to protect irreplaceable ecosystems.",
-    "icon": "🌲",
-    "entryId": "ancient-forest-walk"
-  },
-  {
-    "id": "tl-10",
-    "date": "2025-11-15",
-    "title": "Journal Compilation Complete",
-    "description": "Finished compiling all field notes, observations, photographs, and findings into this digital scrapbook journal. A season of learning distilled into a single resource.",
-    "icon": "📖",
-    "entryId": null
-  }
-]
+{
+  "milestones": [
+    {
+      "id": "tl-01",
+      "date": "2024-02-01",
+      "title": "Initial set-up at NTU (CCEB)",
+      "description": "BugBoom started in its initial stages inside the CCEB building at NTU — the earliest experiments, sketches and plans for a student-led BSFL farm.",
+      "icon": "🐛",
+      "entryId": null
+    },
+    {
+      "id": "tl-02",
+      "date": "2024-07-01",
+      "title": "Relocation to City Sprouts @ Henderson",
+      "description": "BugBoom moved to City Sprouts @ Henderson. This transition marked a shift from concept to hands-on operations — more space, more soil, and a stronger connection to community growers.",
+      "icon": "🚚",
+      "entryId": null
+    },
+    {
+      "id": "tl-03",
+      "date": "2024-08-01",
+      "title": "Processing coffee grounds from local café",
+      "description": "First trials processing coffee grounds donated by a neighbourhood coffee shop. Tests focused on larvae performance with real food-waste feedstocks and data collection to refine the process.",
+      "icon": "☕️",
+      "entryId": null
+    },
+    {
+      "id": "tl-04",
+      "date": "2024-09-01",
+      "title": "First commercial frass produced (test batch)",
+      "description": "BugBoom produced its first commercial frass from a donated bag of hawker-centre food waste. Samples were distributed to local farmers and gardeners for feedback — an important R&D milestone.",
+      "icon": "🌱",
+      "entryId": null
+    },
+    {
+      "id": "tl-05",
+      "date": "2024-09-14",
+      "title": "Guest speakers at NTU Entrepreneurship Academy",
+      "description": "BugBoom was invited to speak at NTU EA alongside faculty. The team shared lessons on student entrepreneurship, sustainability and turning food waste into value.",
+      "icon": "🎤",
+      "entryId": null
+    },
+    {
+      "id": "tl-06",
+      "date": "2024-09-30",
+      "title": "Farm fully operational at City Sprouts",
+      "description": "With new equipment installed, the City Sprouts farm reached full operational capability—allowing higher processing volumes and more reliable frass production.",
+      "icon": "⚙️",
+      "entryId": null
+    },
+    {
+      "id": "tl-07",
+      "date": "2026-02-07",
+      "title": "Site visit — BugBoom @ Vidacity",
+      "description": "Group 7 visited BugBoom at Vidacity as part of ET5131. We observed operations, interviewed founders, and reflected on the WHY/WHAT/HOW of building purpose-driven ventures.",
+      "icon": "👥",
+      "entryId": "night-sky-journal"
+    }
+  ]
+}
