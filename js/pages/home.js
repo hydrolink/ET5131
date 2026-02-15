@@ -59,15 +59,14 @@ export function renderHome() {
         )
       )
     ),
-
     // Quick tiles
     el('section', { className: 'container', 'aria-label': 'Quick navigation' },
       el('div', { className: 'quick-tiles' },
-        createQuickTile('📖', 'Reflections', '#/journal'),
-        createQuickTile('🖼️', 'Gallery', '#/gallery'),
-        createQuickTile('🎬', 'Videos', '#/videos'),
-        createQuickTile('🔍', 'Findings', '#/findings'),
-        createQuickTile('📅', 'Timeline', '#/timeline')
+        createQuickTile('reflections', 'Reflections', '#/journal'),
+        createQuickTile('gallery', 'Gallery', '#/gallery'),
+        createQuickTile('videos', 'Videos', '#/videos'),
+        createQuickTile('findings', 'Findings', '#/findings'),
+        createQuickTile('timeline', 'Timeline', '#/timeline')
       )
     ),
 
@@ -119,15 +118,23 @@ export function renderHome() {
 const REVEAL_DELAYS = ['100', '200', '300', '400', '500'];
 let tileIndex = 0;
 
-function createQuickTile(icon, label, href) {
+const QUICK_TILE_ICONS = {
+  reflections: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v18H6.5A2.5 2.5 0 0 0 4 23z"/><path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H13v18h4.5A2.5 2.5 0 0 1 20 23z"/></svg>',
+  gallery: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9" r="1.5"/><path d="M21 16l-5.5-5.5L7 19"/></svg>',
+  videos: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M10 9l5 3-5 3z"/></svg>',
+  findings: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>',
+  timeline: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 2v4M16 2v4M3 9h18"/><path d="M8 13h3M13 13h3M8 17h3"/></svg>'
+};
+function createQuickTile(iconId, label, href) {
   const delay = REVEAL_DELAYS[tileIndex % REVEAL_DELAYS.length];
   tileIndex++;
+  const iconMarkup = QUICK_TILE_ICONS[iconId] || QUICK_TILE_ICONS.reflections;
   return el('a', {
     className: 'quick-tile',
     href,
     dataset: { reveal: '', revealDelay: delay }
   },
-    el('span', { className: 'quick-tile-icon', 'aria-hidden': 'true' }, icon),
+    el('span', { className: 'quick-tile-icon', 'aria-hidden': 'true', innerHTML: iconMarkup }),
     el('span', { className: 'quick-tile-label' }, label)
   );
 }
@@ -160,3 +167,4 @@ function createFeaturedCard(entry, index) {
     )
   );
 }
+

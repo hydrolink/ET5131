@@ -101,10 +101,16 @@
 }
 
 .quick-tile {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: var(--sp-6) var(--sp-4);
+  position: relative;
+  background: linear-gradient(
+    145deg,
+    rgba(68, 85, 80, 0.55) 0%,
+    rgba(58, 74, 69, 0.9) 100%
+  );
+  border: 1px solid rgba(85, 103, 98, 0.85);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-5) var(--sp-4);
+  min-height: 136px;
   text-align: center;
   transition: all var(--duration-normal) var(--ease-out);
   cursor: var(--cursor-pointer);
@@ -112,25 +118,57 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--sp-3);
+  justify-content: center;
+  gap: var(--sp-4);
+  overflow: hidden;
+}
+
+.quick-tile::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top, rgba(255, 255, 255, 0.1), transparent 55%);
+  opacity: 0;
+  transition: opacity var(--duration-normal) var(--ease-out);
+  pointer-events: none;
 }
 
 .quick-tile:hover {
-  background: var(--card-light);
   border-color: var(--primary);
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.22);
+}
+
+.quick-tile:hover::before {
+  opacity: 1;
 }
 
 .quick-tile-icon {
-  font-size: var(--fs-2xl);
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  background: rgba(197, 180, 149, 0.12);
+  border: 1px solid rgba(197, 180, 149, 0.35);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.quick-tile-icon svg {
+  width: 24px;
+  height: 24px;
 }
 
 .quick-tile-label {
-  font-family: var(--font-display);
-  font-size: var(--fs-md);
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);
   color: var(--text);
-  font-weight: var(--fw-medium);
+  font-weight: var(--fw-semi);
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  line-height: 1.2;
 }
 
 /* Featured entries row */
