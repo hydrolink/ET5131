@@ -3,17 +3,18 @@
 // ============================================
 
 import { el, clearElement } from '../utils/dom.js';
-import { getGallery, getGalleryTags } from '../data.js';
+import { getGallery } from '../data.js';
 import { renderGalleryCard } from '../components/card.js';
-import { createFilterBar, filterItems } from '../components/searchFilter.js';
+import { createGalleryFilterBar, filterGalleryItems, hasActiveFilters } from '../components/galleryFilter.js';
 import { openLightbox } from '../components/lightbox.js';
 import { observeElements } from '../components/scrollReveal.js';
 
 export function renderGallery() {
   const gallery = getGallery();
-  const tags = getGalleryTags();
 
   const grid = el('div', { className: 'gallery-masonry', 'aria-label': 'Photo gallery' });
+
+  const anyItemHasTags = gallery.some(item => item.tags && item.tags.length > 0);
 
   function renderItems(filteredItems) {
     clearElement(grid);
@@ -31,11 +32,10 @@ export function renderGallery() {
     filteredItems.forEach((item, index) => {
       const card = renderGalleryCard(item, index);
 
-      // Open lightbox on click
       card.addEventListener('click', () => {
         const images = filteredItems.map(g => ({
           src: g.src,
-          alt: g.caption,
+          alt: g.caption || 'Gallery photo',
           caption: g.caption
         }));
         openLightbox(images, index);
@@ -45,7 +45,7 @@ export function renderGallery() {
         if (e.key === 'Enter') {
           const images = filteredItems.map(g => ({
             src: g.src,
-            alt: g.caption,
+            alt: g.caption || 'Gallery photo',
             caption: g.caption
           }));
           openLightbox(images, index);
@@ -58,11 +58,18 @@ export function renderGallery() {
     setTimeout(() => observeElements(), 50);
   }
 
-  const filterBar = createFilterBar({
-    tags,
+  const filterBar = createGalleryFilterBar({
     placeholder: 'Search photos...',
-    onFilter: (searchTerm, activeTags) => {
-      const filtered = filterItems(gallery, searchTerm, activeTags, ['caption', 'tags']);
+    onFilter: (searchTerm, activeTagsByCategory) => {
+      let filtered;
+      if (!anyItemHasTags && hasActiveFilters(activeTagsByCategory)) {
+        // No items are tagged yet — show all, filtered only by search
+        filtered = searchTerm
+          ? filterGalleryItems(gallery, searchTerm, {})
+          : gallery;
+      } else {
+        filtered = filterGalleryItems(gallery, searchTerm, activeTagsByCategory);
+      }
       renderItems(filtered);
       filterBar.updateResultsCount(filtered.length, gallery.length);
     }

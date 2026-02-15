@@ -268,6 +268,149 @@
   font-style: italic;
 }
 
+/* ---- GALLERY FILTER (CATEGORIZED) ---- */
+.gallery-filter-bar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  margin-bottom: var(--sp-8);
+}
+
+.gallery-filter-bar .search-container {
+  max-width: 420px;
+}
+
+.filter-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+}
+
+.filter-category-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-3);
+  align-items: center;
+  flex: 1;
+}
+
+.filter-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-3);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-semi);
+  color: var(--text-muted);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  cursor: var(--cursor-pointer);
+  transition: all var(--duration-fast) var(--ease-out);
+  letter-spacing: 0.3px;
+}
+
+.filter-pill:hover {
+  color: var(--text);
+  border-color: var(--text-muted);
+  background: rgba(255,255,255,0.08);
+}
+
+.filter-pill.open {
+  color: var(--primary);
+  border-color: var(--primary);
+  background: var(--primary-dim);
+}
+
+.filter-pill.has-selections {
+  border-color: rgba(197, 180, 149, 0.45);
+}
+
+.filter-pill-label {
+  line-height: 1;
+}
+
+.filter-pill-count {
+  min-width: 18px;
+  height: 18px;
+  padding: 0 var(--sp-1);
+  border-radius: var(--radius-full);
+  background: var(--primary);
+  color: var(--bg);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-semi);
+}
+
+.filter-pill-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-dim);
+  transition: transform var(--duration-fast) var(--ease-out),
+              color var(--duration-fast) var(--ease-out);
+}
+
+.filter-pill.open .filter-pill-chevron {
+  transform: rotate(180deg);
+  color: var(--primary);
+}
+
+.filter-options-panel {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: max-height var(--duration-normal) var(--ease-out),
+              opacity var(--duration-normal) var(--ease-out),
+              transform var(--duration-normal) var(--ease-out),
+              margin var(--duration-normal) var(--ease-out);
+  margin-top: calc(var(--sp-3) * -1);
+}
+
+.filter-options-panel.open {
+  max-height: 260px;
+  opacity: 1;
+  transform: translateY(0);
+  margin-top: 0;
+}
+
+.filter-options-panel-inner {
+  padding: var(--sp-4);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.filter-options-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+.filter-option-chip {
+  text-transform: none;
+}
+
+.filter-clear-btn {
+  font-size: var(--fs-xs);
+  color: var(--text-dim);
+  background: none;
+  border: none;
+  cursor: var(--cursor-pointer);
+  text-decoration: underline;
+  transition: color var(--duration-fast);
+  padding: var(--sp-1) var(--sp-2);
+}
+
+.filter-clear-btn:hover {
+  color: var(--primary);
+}
+
 /* ---- INSIGHT CARD (FINDINGS) ---- */
 .insight-card {
   background: var(--card);
@@ -350,20 +493,21 @@
 
 .video-thumbnail {
   position: relative;
-  aspect-ratio: 16/9;
+  aspect-ratio: 9/16;
   overflow: hidden;
   cursor: var(--cursor-pointer);
   background: var(--bg);
 }
 
-.video-thumbnail img {
+.video-thumbnail .video-player {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
   transition: transform var(--duration-normal);
 }
 
-.video-card:hover .video-thumbnail img {
+.video-card:hover .video-thumbnail .video-player {
   transform: scale(1.05);
 }
 
@@ -382,6 +526,14 @@
   justify-content: center;
   transition: all var(--duration-fast);
   color: var(--primary);
+  opacity: 1;
+  z-index: 2;
+  cursor: var(--cursor-pointer);
+}
+
+.video-play-btn.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .video-play-btn svg {
@@ -412,6 +564,10 @@
   color: var(--text-muted);
   margin-bottom: var(--sp-3);
   line-height: var(--lh-normal);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .video-meta {
@@ -421,21 +577,6 @@
   color: var(--text-dim);
 }
 
-/* Embedded iframe in video card */
-.video-embed {
-  position: relative;
-  aspect-ratio: 16/9;
-  overflow: hidden;
-}
-
-.video-embed iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
 
 /* ---- EMPTY STATE ---- */
 .empty-state {

@@ -73,24 +73,24 @@ export function renderJournalCard(entry) {
 export function renderGalleryCard(item, index) {
   const rotation = randomRotation();
   const tapePos = randomTape();
+  const orientationClass = item.orientation === 'landscape' ? 'gallery-landscape' : 'gallery-portrait';
 
   const card = el('div', {
-    className: `gallery-item ${rotation}`,
+    className: `gallery-item ${orientationClass} ${rotation}`,
     dataset: { reveal: '', revealDelay: String((index % 4) * 100), galleryIndex: String(index) },
     tabindex: '0',
     role: 'button',
-    'aria-label': `View photo: ${item.caption}`
+    'aria-label': `View photo: ${item.caption || 'Gallery photo'}`
   },
     el('div', { className: 'polaroid' },
       el('div', { className: `tape ${tapePos}` }),
       el('img', {
         className: 'polaroid-image',
         src: item.thumbnail,
-        alt: item.caption,
-        loading: 'lazy',
-        style: { aspectRatio: item.aspectRatio || '4/3' }
+        alt: item.caption || 'Gallery photo',
+        loading: 'lazy'
       }),
-      el('p', { className: 'polaroid-caption' }, item.caption)
+      item.caption ? el('p', { className: 'polaroid-caption' }, item.caption) : null
     )
   );
 
@@ -98,22 +98,26 @@ export function renderGalleryCard(item, index) {
 }
 
 /**
- * Render a video card
+ * Render a video card (local video with play overlay)
  */
 export function renderVideoCard(video) {
-  let isPlaying = false;
+  const videoEl = el('video', {
+    className: 'video-player',
+    src: video.src,
+    preload: 'metadata',
+    playsinline: '',
+    'webkit-playsinline': ''
+  });
+
+  const playBtn = el('button', {
+    className: 'video-play-btn',
+    'aria-label': `Play ${video.title}`,
+    innerHTML: '<svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>'
+  });
 
   const thumbnailContainer = el('div', { className: 'video-thumbnail' },
-    el('img', {
-      src: video.thumbnail,
-      alt: video.title,
-      loading: 'lazy'
-    }),
-    el('button', {
-      className: 'video-play-btn',
-      'aria-label': `Play ${video.title}`,
-      innerHTML: '<svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>'
-    })
+    videoEl,
+    playBtn
   );
 
   const card = el('div', {
@@ -131,19 +135,20 @@ export function renderVideoCard(video) {
     )
   );
 
-  // Replace thumbnail with iframe on click
-  thumbnailContainer.addEventListener('click', () => {
-    if (isPlaying) return;
-    isPlaying = true;
-    const embed = el('div', { className: 'video-embed' },
-      el('iframe', {
-        src: `${video.embedUrl}?autoplay=1`,
-        title: video.title,
-        allow: 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
-        allowfullscreen: ''
-      })
-    );
-    thumbnailContainer.replaceWith(embed);
+  playBtn.addEventListener('click', () => {
+    videoEl.controls = true;
+    videoEl.play();
+    playBtn.classList.add('hidden');
+  });
+
+  videoEl.addEventListener('pause', () => {
+    playBtn.classList.remove('hidden');
+  });
+
+  videoEl.addEventListener('ended', () => {
+    videoEl.currentTime = 0;
+    videoEl.controls = false;
+    playBtn.classList.remove('hidden');
   });
 
   return card;

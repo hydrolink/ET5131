@@ -13,7 +13,7 @@ export function renderVideos() {
   const page = el('div', { className: 'page-videos page-transition container' },
     el('div', { className: 'section-header' },
       el('h1', { className: 'section-title' }, 'Field Videos'),
-      el('p', { className: 'section-subtitle' }, 'Moving images from the wild — recordings, timelapses, and guides')
+      el('p', { className: 'section-subtitle' }, 'Clips from our visit to BugBoom — interviews, observations, and behind-the-scenes moments')
     ),
     el('div', { className: 'videos-grid' },
       ...videos.map(video => renderVideoCard(video))

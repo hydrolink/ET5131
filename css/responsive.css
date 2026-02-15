@@ -103,9 +103,10 @@
     grid-template-columns: 1fr;
   }
 
-  /* Videos: single column */
+  /* Videos: 2 columns (portrait videos fit well side-by-side on mobile) */
   .videos-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--sp-4);
   }
 
   /* Featured: single column */
@@ -198,6 +199,32 @@
   .filter-bar .search-container {
     max-width: none;
   }
+
+  /* Gallery filter categories */
+  .gallery-filter-bar .search-container {
+    max-width: none;
+  }
+
+  .filter-controls {
+    align-items: flex-start;
+  }
+
+  .filter-category-pills {
+    width: 100%;
+    gap: var(--sp-2);
+  }
+
+  .filter-options-panel {
+    width: 100%;
+  }
+
+  .filter-options-panel.open {
+    max-height: 340px;
+  }
+
+  .filter-options-panel-inner {
+    padding: var(--sp-3);
+  }
 }
 
 /* ---- Tablet (768px - 1023px) ---- */
@@ -226,6 +253,11 @@
   }
 
   .featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Videos: 2 columns on tablet */
+  .videos-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }

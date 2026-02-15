@@ -32,7 +32,7 @@ Then visit `http://localhost:8000` (or whichever port is assigned).
 
 | Token          | Hex       | Usage                  |
 |----------------|-----------|------------------------|
-| Background     | `#1F2B28` | Page background        |
+| Background     | `#31463F` | Page background        |
 | Surface/Nav    | `#2D3A36` | Navbar, footer, inputs |
 | Card           | `#3A4A45` | Card backgrounds       |
 | Border/Divider | `#556762` | Borders, separators    |

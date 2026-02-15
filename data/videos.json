@@ -1,38 +1,50 @@
 [
   {
     "id": "vid-01",
-    "title": "Morning Chorus: Dawn in an Old-Growth Forest",
-    "description": "A 15-minute immersive recording of the dawn bird chorus in an old-growth forest. Over 12 species can be heard, including the hermit thrush, winter wren, and varied thrush.",
-    "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "thumbnail": "https://picsum.photos/seed/vid-dawn-chorus/800/450",
-    "date": "2025-09-12",
-    "duration": "15:23"
+    "title": "Rare Bird Discovered!",
+    "description": "A Common Oriole species had the privilege of basking in the limelight for over a minute as we captured this unexpected sighting on camera during our visit.",
+    "src": "assets/videos/IMG_7504.MOV",
+    "date": "2026-02-07",
+    "duration": "1:16"
   },
   {
     "id": "vid-02",
-    "title": "Time-Lapse: Mushroom Growth Over 7 Days",
-    "description": "Stunning time-lapse footage showing the explosive growth of fungi on the forest floor after autumn rain. Watch as chanterelles, amanitas, and coral fungi emerge from the leaf litter.",
-    "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "thumbnail": "https://picsum.photos/seed/vid-mushroom-timelapse/800/450",
-    "date": "2025-09-30",
-    "duration": "8:47"
+    "title": "Learning from Taha Basrai, Sustainability Director of BugBoom",
+    "description": "Taha shares eye-opening statistics about food waste in Singapore and gives us a tour of BugBoom's office and facilities.",
+    "src": "assets/videos/IMG_7517.MOV",
+    "date": "2026-02-07",
+    "duration": "0:34"
   },
   {
     "id": "vid-03",
-    "title": "How to Read Clouds: A Field Guide",
-    "description": "A practical guide to reading cloud formations for weather prediction. Covers the ten main cloud genera, what they indicate, and how to build a 12-hour forecast without any technology.",
-    "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "thumbnail": "https://picsum.photos/seed/vid-cloud-guide/800/450",
-    "date": "2025-09-08",
-    "duration": "22:10"
+    "title": "Learning from Ivan Ong, COO of BugBoom",
+    "description": "Ivan walks us through the various stages of development, explaining how food waste is converted into high-quality fertilisers through bioconversion.",
+    "src": "assets/videos/IMG_7518.MOV",
+    "date": "2026-02-07",
+    "duration": "0:55"
   },
   {
     "id": "vid-04",
-    "title": "Night Sky Photography: From Setup to Star Trails",
-    "description": "Complete walkthrough of night sky photography in the backcountry. Covers camera settings, finding dark sky locations, composition with landscapes, and creating star trail composites.",
-    "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "thumbnail": "https://picsum.photos/seed/vid-astrophoto/800/450",
-    "date": "2025-10-20",
-    "duration": "31:05"
+    "title": "Learning from Ivan Ong, COO of BugBoom — Part 2",
+    "description": "Ivan continues his in-depth explanation of the end-to-end process behind converting food waste into high-quality organic fertilisers at scale.",
+    "src": "assets/videos/IMG_7519.MOV",
+    "date": "2026-02-07",
+    "duration": "1:17"
+  },
+  {
+    "id": "vid-05",
+    "title": "Feeding the Black Soldier Fly!",
+    "description": "Students received hands-on experience learning how to properly feed black soldier fly larvae — a key step in the composting and bioconversion cycle.",
+    "src": "assets/videos/IMG_7520.MOV",
+    "date": "2026-02-07",
+    "duration": "0:31"
+  },
+  {
+    "id": "vid-06",
+    "title": "Analysing the Larvae and Fertiliser Produced",
+    "description": "A close-up look at the black soldier fly larvae, the fertilisers they produce, and the final packaging — showcasing BugBoom's end-to-end bioconversion process.",
+    "src": "assets/videos/IMG_7521.MOV",
+    "date": "2026-02-07",
+    "duration": "0:24"
   }
 ]
