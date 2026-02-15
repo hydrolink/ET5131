@@ -565,5 +565,131 @@
     "tags": [],
     "date": "2026-02-07",
     "orientation": "portrait"
+  },
+  {
+    "id": "gal-64",
+    "src": "assets/photos/BBsitevisit (64).jpg",
+    "thumbnail": "assets/photos/BBsitevisit (64).jpg",
+    "caption": "The visually stunning Bauhinia Kockiana",
+    "tags": ["plants", "site-visit", "tour", "close-up", "outdoor"],
+    "date": "2026-02-07",
+    "orientation": "portrait"
+  },
+  {
+    "id": "gal-65",
+    "src": "assets/photos/BBsitevisit (65).jpg",
+    "thumbnail": "assets/photos/BBsitevisit (65).jpg",
+    "caption": "The lush Vidacity Microforest",
+    "tags": ["innovation", "sustainability", "exhibits", "signage", "plants", "site-visit", "tour", "close-up", "outdoor"],
+    "date": "2026-02-07",
+    "orientation": "portrait"
+  },
+  {
+    "id": "gal-66",
+    "src": "assets/photos/BBsitevisit (66).jpg",
+    "thumbnail": "assets/photos/BBsitevisit (66).jpg",
+    "caption": "A Driftwood Sculpture of a Wolf? Maybe?",
+    "tags": ["innovation", "sustainability", "exhibits", "plants", "architecture", "site-visit", "tour", "close-up", "outdoor"],
+    "date": "2026-02-07",
+    "orientation": "portrait"
+  },
+  {
+    "id": "gal-67",
+    "src": "assets/photos/BBsitevisit (67).jpg",
+    "thumbnail": "assets/photos/BBsitevisit (67).jpg",
+    "caption": "Tree.",
+    "tags": ["plants", "site-visit", "tour", "close-up", "outdoor"],
+    "date": "2026-02-07",
+    "orientation": "portrait"
+  },
+  {
+    "id": "gal-68",
+    "src": "assets/photos/BBsitevisit (68).jpg",
+    "thumbnail": "assets/photos/BBsitevisit (68).jpg",
+    "caption": "A former primary school turned green oasis in the city — Vidacity's innovative reuse of space and commitment to biodiversity.",
+    "tags": ["sustainability", "innovation", "biodiversity", "plants", "architecture", "site-visit", "tour", "wide-shot", "outdoor"],
+    "date": "2026-02-07",
+    "orientation": "portrait"
+  },
+  {
+    "id": "gal-69",
+    "src": "assets/photos/BBsitevisit (69).jpg",
+    "thumbnail": "assets/photos/BBsitevisit (69).jpg",
+    "caption": "Non-conforming stock of bread donated by Chewy Junior's",
+    "tags": ["sustainability", "waste-to-value", "food-systems", "feedstock", "workshop-artifacts", "site-visit", "lab-demo", "tour", "workshop", "showcase", "photo", "close-up", "indoor", "lab"],
+    "date": "2026-02-07",
+    "orientation": "portrait"
+  },
+  {
+    "id": "gal-70",
+    "src": "assets/photos/BBsitevisit (70).jpg",
+    "thumbnail": "assets/photos/BBsitevisit (70).jpg",
+    "caption": "Composting",
+    "tags": ["sustainability", "circular-economy", "waste-to-value", "food-systems", "innovation", "compost", "tools-equipment", "workshop-artifacts", "site-visit", "lab-demo", "tour", "workshop", "showcase", "photo", "close-up", "indoor", "lab"],
+    "date": "2026-02-07",
+    "orientation": "portrait"
+  },
+  {
+    "id": "gal-71",
+    "src": "assets/photos/BBsitevisit (71).jpg",
+    "thumbnail": "assets/photos/BBsitevisit (71).jpg",
+    "caption": "Mixing nutritious feed for the BSFL larvae",
+    "tags": ["sustainability", "circular-economy", "waste-to-value", "food-systems", "innovation", "compost", "workshop-artifacts", "site-visit", "lab-demo", "tour", "workshop", "showcase", "photo", "close-up", "indoor", "lab"],
+    "date": "2026-02-07",
+    "orientation": "portrait"
+  },
+  {
+    "id": "gal-72",
+    "src": "assets/photos/BBsitevisit (72).jpg",
+    "thumbnail": "assets/photos/BBsitevisit (72).jpg",
+    "caption": "Feeding the BSFL larvae",
+    "tags": ["sustainability", "circular-economy", "waste-to-value", "food-systems", "innovation", "workshop-artifacts", "site-visit", "lab-demo", "tour", "workshop", "showcase", "photo", "close-up", "indoor", "lab"],
+    "date": "2026-02-07",
+    "orientation": "portrait"
+  },
+  {
+    "id": "gal-73",
+    "src": "assets/photos/BBsitevisit (73).jpg",
+    "thumbnail": "assets/photos/BBsitevisit (73).jpg",
+    "caption": "Sieving the frass to separate it from the larvae",
+    "tags": ["sustainability", "circular-economy", "waste-to-value", "innovation", "workshop-artifacts", "site-visit", "lab-demo", "tour", "workshop", "showcase", "photo", "close-up", "indoor", "lab"],
+    "date": "2026-02-07",
+    "orientation": "portrait"
+  },
+  {
+    "id": "gal-74",
+    "src": "assets/photos/BBsitevisit (74).jpg",
+    "thumbnail": "assets/photos/BBsitevisit (74).jpg",
+    "caption": "Mushroom exhibit made from newspapers",
+    "tags": ["sustainability", "circular-economy", "waste-to-value", "innovation", "plants", "site-visit", "tour", "exhibits", "showcase", "photo", "close-up", "outdoor", "exhibit-hall"],
+    "date": "2026-02-07",
+    "orientation": "portrait"
+  },
+  {
+    "id": "gal-75",
+    "src": "assets/photos/BBsitevisit (75).jpg",
+    "thumbnail": "assets/photos/BBsitevisit (75).jpg",
+    "caption": "Upcycling newspapers into art.",
+    "tags": ["sustainability", "circular-economy", "waste-to-value", "innovation", "plants", "site-visit", "tour", "exhibits", "showcase", "photo", "close-up", "outdoor", "exhibit-hall"],
+    "date": "2026-02-07",
+    "orientation": "portrait"
+  },
+  {
+    "id": "gal-76",
+    "src": "assets/photos/BBsitevisit (76).jpg",
+    "thumbnail": "assets/photos/BBsitevisit (76).jpg",
+    "caption": "Vertical farming system on display, utilising hydroponic systems.",
+    "tags": ["sustainability", "circular-economy", "innovation", "plants", "greenhouse", "site-visit", "tour", "exhibits", "showcase", "photo", "wide-shot", "outdoor", "exhibit-hall"],
+    "date": "2026-02-07",
+    "orientation": "portrait"
+  },
+  {
+    "id": "gal-77",
+    "src": "assets/photos/BBsitevisit (77).jpg",
+    "thumbnail": "assets/photos/BBsitevisit (77).jpg",
+    "caption": "Bottle cap flower art made from recycled coffee capsules.",
+    "tags": ["sustainability", "circular-economy", "innovation", "site-visit", "tour", "exhibits", "showcase", "photo", "close-up", "outdoor", "exhibit-hall"],
+    "date": "2026-02-07",
+    "orientation": "portrait"
   }
 ]
