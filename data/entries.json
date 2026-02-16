@@ -1,162 +1,80 @@
 [
   {
-    "id": "dawn-at-the-summit",
-    "title": "Dawn at the Summit",
-    "date": "2025-09-15",
-    "tags": ["hiking", "mountains", "sunrise", "reflection"],
-    "summary": "The air was crisp and thin at 8,000 feet. Watching the sun paint the peaks in shades of gold and pink reminded me why I chase these moments.",
-    "heroImage": "https://picsum.photos/seed/summit-dawn/800/500",
+    "id": "calvin-reflection",
+    "title": "Passion for the Environment",
+    "date": "2026-02-07",
+    "tags": ["calvin-chan", "reflection"],
+    "summary": "Before visiting BugBoom, my initial expectations of a student-formed startup was a very techy, software driven company. After arriving at Vidacity and seeing that it was previously a primary school, and being first greeted by the sustainability garden, I realised that this place was more than what I had imagined.",
+    "heroImage": "assets/photos/BBsitevisit (5).jpg",
     "content": [
-      { "type": "text", "value": "We started the ascent at 3:30 AM, headlamps cutting narrow paths through the darkness. The trail was steep and unforgiving, switchback after switchback carved into the mountainside. My legs burned, my lungs ached, but the promise of what waited at the top kept me moving." },
-      { "type": "text", "value": "By 5:45 AM, we'd cleared the tree line. The world opened up—a vast expanse of ridges and valleys still cloaked in shadow. The eastern horizon was just beginning to blush, a thin line of amber separating earth from sky." },
-      { "type": "image", "src": "https://picsum.photos/seed/mountain-trail/800/500", "alt": "Rocky mountain trail above the tree line at dawn", "caption": "The final push above tree line, 7,200 feet" },
-      { "type": "text", "value": "When the sun finally crested the ridge, it happened fast. Gold light spilled across the peaks like liquid, turning snow patches into mirrors and painting every rock face in warm amber. The clouds below us became a glowing sea of cotton." },
-      { "type": "text", "value": "Nature doesn't need an audience, but I'm grateful to witness it. These moments of raw beauty remind me that the best things in life require effort and patience. The summit wasn't the destination—the sunrise was." }
+      { "type": "text", "value": "Before visiting BugBoom, my initial expectations of a student-formed startup was a very techy, software driven company." },
+      { "type": "text", "value": "After arriving at Vidacity and seeing that it was previously a primary school, and being first greeted by the sustainability garden, I realised that this place was more than what I had imagined." },
+      { "type": "image", "src": "assets/photos/BBsitevisit (35).jpg", "alt": "Vidacity Microforest", "caption": "The former Loyang Primary School turned sustainability hub." },
+      { "type": "text", "value": "Touring the area we see how the companies there work in harmony with the environment by creating artwork upcycled from plastics, and using coffee grounds to create art pieces." },
+      { "type": "text", "value": "I learnt that passion for the environment can be a strong driver to motivate these founders to work hard to create solutions that not many are interested in solving." },
+      { "type": "text", "value": "I am inspired by each of the founders' stories, how they come together from different backgrounds and all serve different functions, but with a shared goal - to better manage food waste for a more sustainable environment." }
+    ],
+    "keyTakeaways": []
+  },
+  {
+    "id": "gerald-reflection",
+    "title": "Grit Over Glamour",
+    "date": "2026-02-07",
+    "tags": ["gerald-koh", "reflection"],
+    "summary": "Going into BugBoom, I was kind of expecting a fairly clean and polished startup, thinking slick demos and showcases. Instead, what I encountered was something refreshingly grounded, human and practical.",
+    "heroImage": "assets/photos/BBsitevisit (66).jpg",
+    "content": [
+      { "type": "text", "value": "Going into BugBoom, I was kind of expecting a fairly clean and polished startup, thinking slick demos and showcases. Instead, what I encountered was something refreshingly grounded, human and practical." },
+      { "type": "text", "value": "Even from our first impressions seeing Vidacity being repurposed from a primary school, to seeing BugBoom’s founders being knee-deep in it's daily operations, unafraid to get their hands dirty with trays of black soldier fly larvae processing NTU Quad Cafe waste." },
+      { "type": "text", "value": "And this learning journey ultimately shifted how I viewed entrepreneurship and the startup scene here in Singapore." },
+      { "type": "image", "src": "assets/photos/BBsitevisit (73).jpg", "alt": "Sieving frass from the BSF larvae", "caption": "Sieving frass from the BSF larvae" },
+      { "type": "text", "value": "What they shared, and the passion that they exuded was raw and unfiltered, fueled by relatable motivation, their answers were unscripted and clearly backed by what they’ve learnt along the way through trial and error." },
+      { "type": "text", "value": "This demystified the entrepreneurship journey for me, revealing how it's 90% persistence through seemingly-endless hurdles like scaling pains, working around space constraints, and forging and maintaining long-term professional relationships." },
+      { "type": "text", "value": "This really cracked my perfectionist mindset, showing me that ideas can be developed over time and does not need to, and is practically impossible, to be bulletproof from the beginning." },
+      { "type": "text", "value": "Real ventures evolve through scrappy iteration, starting imperfect and refined over time. Entrepreneurship here isn't about perfection; it's about embracing the mess to create meaningful impact." }
     ],
     "keyTakeaways": [
-      "Early starts yield the most magical light for observation",
-      "Alpine environments change rapidly — always carry layers",
-      "The journey teaches more than the destination"
+      "Passion and persistence are more important than perfection in early-stage ventures",
+      "Entrepreneurship is a messy, iterative process — ideas evolve through trial and error"
     ]
   },
   {
-    "id": "the-hidden-creek",
-    "title": "The Hidden Creek Ecosystem",
-    "date": "2025-08-22",
-    "tags": ["water", "ecosystem", "biodiversity", "field-study"],
-    "summary": "Beneath the canopy of old-growth cedars, I discovered a creek teeming with life I'd never noticed before. Every rock told a story.",
-    "heroImage": "https://picsum.photos/seed/hidden-creek/800/500",
+    "id": "xinyang-reflection",
+    "title": "Small Creatures, Big Circular Dreams",
+    "date": "2026-02-07",
+    "tags": ["xin-yang", "reflection"],
+    "summary": "In a former school turned sustainability hub, I met BugBoom’s four founders and watched their Black Soldier Fly system quietly do something we struggle with at scale: turn “waste” into inputs again.",
+    "heroImage": "assets/photos/BBsitevisit (68).jpg",
     "content": [
-      { "type": "text", "value": "I almost walked past it. The creek was barely two feet wide, hidden beneath a tangle of ferns and fallen branches. But the sound—that gentle, persistent murmur—pulled me off the trail and into a world I hadn't expected to find." },
-      { "type": "text", "value": "Kneeling beside the water, I started to see things. Tiny caddisfly larvae in their pebble cases, attached to the underside of stones. Water striders skating across a still pool. A small salamander, rust-colored and impossibly delicate, tucked into a crevice between two mossy rocks." },
-      { "type": "image", "src": "https://picsum.photos/seed/creek-macro/800/500", "alt": "Close-up of moss and small creek running over pebbles", "caption": "Macro world of the forest floor creek" },
-      { "type": "text", "value": "I spent nearly two hours at this spot, sketching what I saw and taking notes on the species I could identify. The water temperature was noticeably cooler than the surrounding air—a micro-climate created by the dense canopy overhead and the steady flow of groundwater." },
-      { "type": "text", "value": "What struck me most was the interconnectedness. The fallen leaves from the cedars fed the creek's invertebrates, which in turn fed the salamanders. The moss filtered the water, and the roots of the surrounding trees stabilized the banks. Remove any one element, and the whole system would shift." }
+      { "type": "text", "value": "In a former school turned sustainability hub, I met BugBoom’s four founders and watched their Black Soldier Fly system quietly do something we struggle with at scale: turn “waste” into inputs again." },
+      { "type": "text", "value": "Vidacity still feels like it remembers its previous life as a school. Classrooms have been repurposed into startup spaces, and the whole campus carries this quiet message: you can reuse what already exists, instead of building from scratch." },
+      { "type": "title", "value": "Meeting the people behind BugBoom" },
+      { "type": "text", "value": "During the visit, I got to speak with all four founders — Sreeram Vasanth, Ivan Ong, Lim En Cheng, and Taha Basrai." },
+      { "type": "text", "value": "What struck me immediately was how unpolished (in a good way) the work is. BugBoom isn’t the kind of sustainability project that lives comfortably in slides. It’s hands-on, operational, and a little uncomfortable — the kind of work where you can’t “idea” your way out of reality." },
+      { "type": "text", "value": "From what they share publicly, BugBoom’s mission is to tackle food waste by cultivating Black Soldier Flies and using their by-products to recirculate nutrients back into the economy — through a mix of food-waste management services, products, and educational workshops." },
+      { "type": "title", "value": "The moment it clicked for me" },
+      { "type": "text", "value": "I’ve heard “circular economy” so many times that it’s started to sound like a slogan. But standing there, watching the system up close, the idea became… embarrassingly simple." },
+      { "type": "text", "value": "Food waste isn’t “gone” just because we throw it away. It becomes someone else’s problem — and usually, it becomes it fast. BugBoom’s approach flips that story: treat food waste as a feedstock, and build a process where outputs are useful again." },
+      { "type": "text", "value": "And it’s not just the biology that’s hard. The founders kept circling back to the unglamorous parts:" },
+      { "type": "bullet-list", "value": [
+        "how inconsistent real food waste can be,",
+        "how operations need routines and discipline,",
+        "how trust and partnerships matter when you’re dealing with other people’s waste streams,",
+        "and how education is part of scaling, because public perception can be a bigger barrier than technology."
+      ] },
+      { "type": "text", "value": "I left with a new respect for “messy” sustainability — the kind that doesn’t photograph nicely, but actually moves numbers." },
+      { "type": "title", "value": "What I’m taking away (personally)" },
+      { "type": "text", "value": "Today reminded me that sustainability isn’t just about having the right values — it’s about building systems that still work when conditions aren’t perfect." },
+      { "type": "image", "src": "assets/photos/BBsitevisit (43).jpg", "alt": "Vidacity's Grand Opening Signage", "caption": "Vidacity's Grand Opening Signage" },
+      { "type": "text", "value": "BugBoom made me reflect on two things:" },
+      { "type": "number-list", "value": [
+        "Impact can be physical. You can literally see transformation when the process is real, measurable, and repeatable.",
+        "Founders are translators. They’re translating a climate problem into a set of daily decisions: what to measure, what to test, what to fix, and what to explain—again and again."
+      ]
+      },
+      { "type": "text", "value": "On the ride home, I caught myself thinking: if four students can take on a problem as unsexy as food waste and still keep showing up to iterate, then the least I can do is be more intentional about what I waste — and how I think about “invisible” environmental problems." },
+      { "type": "text", "value": "Some solutions don’t look heroic. Sometimes they look like a small team, a lot of trial-and-error, and a box where nature is quietly doing the work." }
     ],
-    "keyTakeaways": [
-      "Microhabitats contain surprising biodiversity",
-      "Slow observation reveals what quick glances miss",
-      "Every ecosystem is a web of interdependencies"
-    ]
-  },
-  {
-    "id": "tracking-the-elk-herd",
-    "title": "Tracking the Elk Herd",
-    "date": "2025-10-03",
-    "tags": ["wildlife", "tracking", "elk", "autumn"],
-    "summary": "Three days of following elk tracks through fog-draped meadows taught me more about patience than any book ever could.",
-    "heroImage": "https://picsum.photos/seed/elk-meadow/800/500",
-    "content": [
-      { "type": "text", "value": "The tracks were fresh—deep impressions in the soft earth at the meadow's edge, each print the size of my outstretched hand. Dew still clung to the bent grass where the herd had passed, probably no more than an hour before dawn." },
-      { "type": "text", "value": "I followed the trail along the river bottom, moving slowly, pausing often to listen. The fog was thick enough to muffle sound, creating an eerie silence broken only by the occasional drip from overhanging branches and the distant call of a raven." },
-      { "type": "image", "src": "https://picsum.photos/seed/elk-tracks/800/500", "alt": "Fresh elk tracks in muddy ground with morning frost", "caption": "Fresh elk prints in the morning frost" },
-      { "type": "text", "value": "On the second afternoon, I found them. A herd of about thirty, grazing in a wide meadow ringed by aspens already turning gold. A large bull stood at the edge, his rack silhouetted against the pale sky. I watched from two hundred yards, downwind, for nearly an hour as they fed and rested." },
-      { "type": "text", "value": "The experience reinforced something I keep learning: nature reveals itself to those who are willing to wait. Tracking isn't just about following prints—it's about reading the landscape, understanding movement patterns, and being comfortable with uncertainty." }
-    ],
-    "keyTakeaways": [
-      "Wind direction is crucial when approaching wildlife",
-      "Track patterns reveal behavior — speed, group size, feeding vs. fleeing",
-      "Patience is the most valuable field skill"
-    ]
-  },
-  {
-    "id": "mushroom-kingdom",
-    "title": "The Mushroom Kingdom Underfoot",
-    "date": "2025-09-28",
-    "tags": ["fungi", "identification", "forest-floor", "ecology"],
-    "summary": "After three days of rain, the forest floor exploded with fungi. I cataloged fourteen species in a single afternoon walk.",
-    "heroImage": "https://picsum.photos/seed/mushroom-forest/800/500",
-    "content": [
-      { "type": "text", "value": "Rain transforms a forest. What was dry and dusty becomes lush and alive, and nowhere is this more evident than on the forest floor. After seventy-two hours of steady autumn rain, I returned to my study plot to find it transformed into a fungal wonderland." },
-      { "type": "text", "value": "The first thing I noticed were the chanterelles—golden, trumpet-shaped, pushing up through the leaf litter in clusters of three and four. Their apricot scent was unmistakable, a sweet, fruity perfume that seemed to linger in the damp air." },
-      { "type": "image", "src": "https://picsum.photos/seed/chanterelle/800/500", "alt": "Golden chanterelle mushrooms on the forest floor among fallen leaves", "caption": "Chanterelle cluster beneath an old Douglas fir" },
-      { "type": "text", "value": "But the chanterelles were just the beginning. Over the next three hours, I documented turkey tails on fallen logs, delicate coral fungi branching upward like miniature trees, amanitas with their tell-tale skirts and bulbous bases, and several species of Russula in shades of red, purple, and cream." },
-      { "type": "text", "value": "The most fascinating find was a network of honey fungus (Armillaria) connecting several trees via dark rhizomorphs—essentially fungal highways running just beneath the soil surface. This is the infrastructure of the wood wide web, the mycorrhizal network through which trees share nutrients and communicate stress signals." }
-    ],
-    "keyTakeaways": [
-      "Fungi are seasonal — timing and weather conditions are everything",
-      "Never eat wild mushrooms without expert identification",
-      "Mycorrhizal networks are the hidden internet of the forest"
-    ]
-  },
-  {
-    "id": "night-sky-journal",
-    "title": "Stargazing in the High Desert",
-    "date": "2025-10-18",
-    "tags": ["astronomy", "night-sky", "desert", "meditation"],
-    "summary": "With no moon and zero light pollution, the Milky Way arched overhead like a river of light. I've never felt so small—or so connected.",
-    "heroImage": "https://picsum.photos/seed/night-desert/800/500",
-    "content": [
-      { "type": "text", "value": "I drove four hours east to reach the desert overlook, arriving just as twilight faded. The last orange glow on the western horizon dissolved into deep blue, then indigo, then a darkness so complete it felt physical." },
-      { "type": "text", "value": "And then the stars appeared. Not one by one, as they do in the city, but all at once—a sudden revelation of light. The Milky Way stretched from horizon to horizon, a luminous band so bright it cast faint shadows on the sandstone beneath me." },
-      { "type": "image", "src": "https://picsum.photos/seed/milkyway/800/500", "alt": "Milky Way arching over desert landscape with silhouetted rock formations", "caption": "The Milky Way over sandstone formations" },
-      { "type": "text", "value": "Using my star chart and a red headlamp, I identified constellations I'd only read about: Cassiopeia, Cygnus, the great square of Pegasus. Jupiter blazed in the south, and through my binoculars I could make out its four Galilean moons lined up like tiny pearls." },
-      { "type": "text", "value": "There's something profoundly humbling about lying on warm rock and staring into the universe. Each point of light is a sun, many with their own planets. The light I'm seeing left those stars years, decades, centuries ago. I'm looking backward in time, watching history arrive at the speed of light." }
-    ],
-    "keyTakeaways": [
-      "Dark sky locations reveal 10x more visible stars than suburbs",
-      "Allow 20–30 minutes for full dark adaptation — avoid white light",
-      "Astronomy connects us to the deepest scales of time and space"
-    ]
-  },
-  {
-    "id": "soil-stories",
-    "title": "What the Soil Tells Us",
-    "date": "2025-08-10",
-    "tags": ["soil", "science", "ecology", "field-study"],
-    "summary": "A single tablespoon of forest soil contains more microorganisms than there are people on Earth. I dug deeper—literally and figuratively.",
-    "heroImage": "https://picsum.photos/seed/soil-layers/800/500",
-    "content": [
-      { "type": "text", "value": "We rarely think about what's beneath our feet. We walk over it, build on it, grow food in it—but how often do we actually look at soil? Really look at it? Today I brought a hand lens, a trowel, and a notebook, and spent four hours studying a single soil pit." },
-      { "type": "text", "value": "The profile was textbook beautiful. The O-horizon—the organic layer—was nearly four inches deep, a dark, crumbly mat of decomposing leaves, twigs, and unseen organisms. Below that, the A-horizon was rich brown, threaded with fine roots and punctuated by earthworm channels." },
-      { "type": "image", "src": "https://picsum.photos/seed/soil-profile/800/500", "alt": "Cross-section of forest soil showing distinct layers and root systems", "caption": "Soil profile showing O, A, and B horizons" },
-      { "type": "text", "value": "I identified several earthworm species, countless springtails (they really do spring!), and used my hand lens to spot mites moving through the humus layer. The soil smelled extraordinary—that rich, earthy petrichor that comes from actinomycetes, a type of bacteria that thrives in moist soil." },
-      { "type": "text", "value": "The deeper I dug, the more I understood: soil isn't dirt. It's a living system, a foundation ecology that supports everything above it. Healthy soil is the difference between a thriving forest and a barren hillside. It takes nature hundreds of years to build an inch of topsoil, and we can destroy it in a season of carelessness." }
-    ],
-    "keyTakeaways": [
-      "Soil is alive — it contains billions of organisms per gram",
-      "Soil horizons tell the history of a landscape",
-      "Protecting topsoil is one of our most critical ecological responsibilities"
-    ]
-  },
-  {
-    "id": "weather-patterns",
-    "title": "Reading Weather in the Wild",
-    "date": "2025-09-05",
-    "tags": ["weather", "clouds", "observation", "skills"],
-    "summary": "Instead of checking an app, I spent a week reading the sky. Cloud shapes, wind shifts, and bird behavior revealed weather patterns hours before they arrived.",
-    "heroImage": "https://picsum.photos/seed/cloud-sky/800/500",
-    "content": [
-      { "type": "text", "value": "Day one of my self-imposed challenge: no weather apps, no forecasts, no radar. Just my eyes, the sky, and a barometer I'd borrowed from the field station. Could I predict what was coming by reading the natural signs?" },
-      { "type": "text", "value": "The first thing I learned was to watch the clouds. High, thin cirrus clouds often signal a warm front approaching 24–48 hours out. When those feathery wisps start to lower and thicken into cirrostratus, rain is usually 12–18 hours away. And when the sky fills with dark, layered nimbostratus—it's time to seek shelter." },
-      { "type": "image", "src": "https://picsum.photos/seed/cirrus-clouds/800/500", "alt": "Wispy cirrus clouds stretched across a blue sky above a forest", "caption": "Cirrus clouds: high, thin, and telling" },
-      { "type": "text", "value": "Wind direction proved equally telling. In the northern hemisphere, a backing wind (shifting counterclockwise) often precedes deteriorating weather, while a veering wind (clockwise shift) suggests clearing skies. By day three, I could feel a pressure drop before my barometer confirmed it." },
-      { "type": "text", "value": "Perhaps most fascinating were the animal indicators. Swallows flying low, feeding near the ground, signaled incoming rain (insects descend in falling pressure). Pinecones close in humid air. Even the way spider webs collect moisture in the morning can hint at the day ahead." }
-    ],
-    "keyTakeaways": [
-      "Cloud types and their progression are reliable 12–48 hour indicators",
-      "Wind direction shifts reveal approaching frontal systems",
-      "Animals and plants respond to atmospheric pressure changes before we can feel them"
-    ]
-  },
-  {
-    "id": "ancient-forest-walk",
-    "title": "Walking Through Ancient Giants",
-    "date": "2025-11-02",
-    "tags": ["old-growth", "trees", "conservation", "awe"],
-    "summary": "Standing beneath a 500-year-old Douglas fir, I realized that this tree was a sapling when Leonardo da Vinci was painting. Some things deserve our reverence.",
-    "heroImage": "https://picsum.photos/seed/ancient-forest/800/500",
-    "content": [
-      { "type": "text", "value": "The old-growth grove was unlike any forest I'd walked through. The trees here weren't just large—they were architectural. Their trunks, some over eight feet in diameter, rose like columns in a cathedral, disappearing into a canopy so high it seemed to merge with the sky." },
-      { "type": "text", "value": "Light filtered down in golden shafts, illuminating clouds of dust and pollen. The air was different here—cooler, damper, richer. Every breath carried the scent of cedar, decomposing wood, and that indefinable quality of very old, very alive places." },
-      { "type": "image", "src": "https://picsum.photos/seed/old-growth-trees/800/500", "alt": "Massive old-growth tree trunks covered in moss reaching toward canopy", "caption": "500-year-old Douglas firs in the old-growth grove" },
-      { "type": "text", "value": "I placed my hand on the bark of the largest tree and tried to comprehend its age. This tree germinated around 1525. It survived fire, drought, storms, and centuries of seasonal change. It's been quietly exchanging carbon dioxide for oxygen longer than my country has existed." },
-      { "type": "text", "value": "These groves are increasingly rare. Less than 10% of the original old-growth forest remains. Each tree that falls to logging takes half a millennium to replace—if it can be replaced at all, given changing climate conditions. Walking here felt like visiting a living museum, a reminder of what resilience and patience look like at the grandest scale." }
-    ],
-    "keyTakeaways": [
-      "Old-growth forests are irreplaceable on human timescales",
-      "These ecosystems support unique species found nowhere else",
-      "Conservation of ancient forests is an urgent priority"
-    ]
+    "keyTakeaways": []
   }
 ]
