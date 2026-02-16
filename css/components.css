@@ -581,6 +581,9 @@
 /* ---- EMPTY STATE ---- */
 .empty-state {
   text-align: center;
+  display: inline-block;
+  width: 100%;
+  position: absolute;
   padding: var(--sp-16) var(--sp-8);
   color: var(--text-muted);
 }

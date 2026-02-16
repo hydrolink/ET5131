@@ -93,6 +93,12 @@ export function renderEntryDetail(entryId) {
   const contentBlocks = entry.content.map((block, i) => {
     if (block.type === 'text') {
       return el('p', {}, block.value);
+    } else if (block.type === 'title') {
+      return el('h3', {}, block.value);
+    } else if (block.type === 'number-list') {
+      return el('ol', { className: 'number-list list', type: '1' },block.value.map(item => el('li', {}, item)));
+    } else if (block.type === 'bullet-list') {
+      return el('ul', { className: 'bullet-list list' }, block.value.map(item => el('li', {}, item)));
     } else if (block.type === 'image') {
       const rotation = randomRotation();
       const wrapper = el('figure', { className: `content-photo-wrapper ${rotation}`, style: { '--rotate': `${(Math.random() * 4 - 2).toFixed(1)}deg` } },

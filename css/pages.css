@@ -259,8 +259,29 @@
   line-height: var(--lh-relaxed);
 }
 
-.entry-content p {
+.entry-content p, .entry-content h3 {
   margin-bottom: var(--sp-5);
+}
+
+.entry-content h3 {
+  margin-top: var(--sp-10);
+}
+
+.entry-content .list {
+  margin-left: var(--sp-10);
+  margin-bottom: var(--sp-5);
+}
+
+.entry-content ul {
+  list-style: disc !important;
+}
+
+.entry-content ol {
+  list-style: decimal !important;
+}
+
+.entry-content li {
+  margin-bottom: var(--sp-2);
 }
 
 .entry-content .content-image {
