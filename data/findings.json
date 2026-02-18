@@ -5,7 +5,7 @@
     "category": "Methods",
     "icon": "◆",
     "pinned": true,
-    "content": "Contrary to the expectation that rotting food and insect farming would be pungent, BugBoom has achieved a completely odorless process. Through precise environmental control and the rapid consumption rate of the larvae, they have eliminated the smell factor entirely. This \"invisible\" processing allows them to operate in semi-urban spaces (like Vidacity) without causing community friction, a feat rarely seen in waste management."
+    "content": "Contrary to the expectation that rotting food and insect farming would be pungent, BugBoom has achieved a completely odorless process. Through precise environmental control and the rapid consumption rate of the larvae, they have eliminated the smell factor entirely. This allows them to operate in semi-urban spaces (like Vidacity) without causing community friction, which is pretty impressive for waste management."
   },
   {
     "id": "finding-02",
@@ -13,7 +13,7 @@
     "category": "Results",
     "icon": "◇",
     "pinned": true,
-    "content": "BugBoom's impact isn't limited to fertilizer production; they have successfully commoditized \"knowledge\" through workshops and community engagement. By positioning themselves as educators inspiring future environmental leaders, they create a secondary value stream that supports their mission. The result is a brand that sells sustainability culture, not just agricultural products."
+    "content": "BugBoom's impact isn't limited to fertilizer production; they've turned their knowledge into a product through workshops and community outreach. By positioning themselves as educators inspiring future environmental leaders, they create a secondary value stream that supports their mission. They're not just selling fertiliser — they're selling people on the idea of sustainability itself."
   },
   {
     "id": "finding-03",
@@ -21,7 +21,7 @@
     "category": "Lessons",
     "icon": "●",
     "pinned": true,
-    "content": "The most critical lesson here is the \"post-hackathon commitment.\" Most teams dissolve after winning a prize. BugBoom's founders used their $25k KSIP winnings as seed funding to validate their idea. Crucially, startup prizes like KSIP distribute funding in two tranches, the second half is only unlocked after six months of proving financial responsibility and satisfactory progress. This structured payout forces early-stage founders to remain accountable and proves that hackathons are merely the first step of the real work, not the final destination."
+    "content": "The biggest takeaway here is what happens after the hackathon. Most teams dissolve after winning a prize. BugBoom's founders used their $25k KSIP winnings as seed funding to validate their idea. Crucially, startup prizes like KSIP distribute funding in two tranches, the second half is only unlocked after six months of proving financial responsibility and satisfactory progress. This setup keeps founders honest and shows that winning a hackathon is just the start, not the finish line."
   },
   {
     "id": "finding-04",
@@ -29,7 +29,7 @@
     "category": "Mistakes",
     "icon": "▼",
     "pinned": false,
-    "content": "Passion doesn't immediately pay the bills. A major challenge identified is the financial reality: BugBoom is currently selling their fertilizer at a loss (approx. $7/pack). The founders maintain their startup responsibilities while balancing other work and academics, a \"side hustle\" reality check for aspiring entrepreneurs who have to stretch their initial tranche of funding while proving their viability."
+    "content": "Passion doesn't immediately pay the bills. A major challenge identified is the financial reality: BugBoom is currently selling their fertilizer at a loss (approx. $7/pack). The founders maintain their startup responsibilities while balancing other work and academics, a reality check for any student entrepreneur trying to make prize money last while proving their idea works."
   },
   {
     "id": "finding-05",
@@ -37,7 +37,7 @@
     "category": "Next Steps",
     "icon": "▸",
     "pinned": false,
-    "content": "Despite being a local university spinoff, the team is already planning for \"International Expansion\" (led by Taha). The next step isn't just dominating the local market but preparing the technical equipment and operational scalability for global outreach. This suggests they are building a \"franchise-ready\" model rather than just a local farm."
+    "content": "Despite being a local university spinoff, the team is already planning for \"International Expansion\" (led by Taha). The next step isn't just dominating the local market but preparing the technical equipment and operational scalability for global outreach. This suggests they are building something that could eventually be replicated elsewhere, not just running a local farm."
   },
   {
     "id": "finding-06",
@@ -45,7 +45,7 @@
     "category": "Lessons",
     "icon": "◎",
     "pinned": false,
-    "content": "The startup journey is fragile. BugBoom's survival is heavily supported by the Vidacity ecosystem, which provides essential resources, mentorship, and crucially, affordable workspace (<$500/month). For purpose-driven startups, finding a supportive \"habitat\" like Vidacity is as important as the idea itself. It allows founders to focus on \"Why, What, How\" rather than just rent."
+    "content": "The startup journey is fragile. BugBoom's survival is heavily supported by the Vidacity ecosystem, which provides essential resources, mentorship, and crucially, affordable workspace (<$500/month). For startups like BugBoom, having a place like Vidacity to call home is just as important as the idea. It lets founders focus on actually building something instead of worrying about rent."
   },
   {
     "id": "finding-07",
@@ -53,7 +53,7 @@
     "category": "Lessons",
     "icon": "◉",
     "pinned": true,
-    "content": "BugBoom's four co-founders (Sreeram Vasanth, Ivan Ong, Lim En Cheng, and Taha Basrai) each bring distinct expertise (operations, international expansion, R&D, outreach) but share one unshakeable motivation: transforming Singapore's food waste crisis into a circular economy opportunity. Their passion was raw and unscripted during our visit, referring to BSF larvae as their 'babies' and speaking with a conviction clearly backed by trial and error, not rehearsed pitches. Their drive stems not from profit but from a genuine belief that waste is a misplaced resource."
+    "content": "BugBoom's four co-founders (Sreeram Vasanth, Ivan Ong, Lim En Cheng, and Taha Basrai) each handle different parts of the business (operations, international expansion, R&D, outreach), but they all share the same goal: doing something about Singapore's food waste problem. When we visited, you could tell their passion was real — they called the BSF larvae their 'babies' and spoke from experience, not from a script. They're clearly not in it for the money; they genuinely believe waste doesn't have to be waste."
   },
   {
     "id": "finding-08",
@@ -61,7 +61,7 @@
     "category": "Lessons",
     "icon": "○",
     "pinned": false,
-    "content": "The founders' entrepreneurial journey demanded a fundamental mindset shift. They entered expecting to build a bulletproof plan before launching, but quickly learned that real ventures evolve through scrappy iteration. Key knowledge acquired on-the-fly included BSF biology and optimal rearing conditions, regulatory compliance for insect-based products in Singapore, unit economics of fertiliser production, waste collection logistics, and community engagement strategies. The gap between 'hackathon knowledge' and 'operational knowledge' was vast, bridged only through persistent trial and error."
+    "content": "The founders' entrepreneurial journey demanded a fundamental mindset shift. They entered expecting to build a bulletproof plan before launching, but quickly learned that real ventures grow by just trying things and improving as they go. Key knowledge acquired on-the-fly included BSF biology and optimal rearing conditions, regulatory compliance for insect-based products in Singapore, unit economics of fertiliser production, waste collection logistics, and community engagement strategies. The gap between what they knew from hackathons and what they needed to know to actually run things was huge — they had to figure most of it out by doing."
   },
   {
     "id": "finding-09",
@@ -69,6 +69,6 @@
     "category": "Next Steps",
     "icon": "✦",
     "pinned": false,
-    "content": "Five recommendations distilled from observing BugBoom's journey: (1) Find your ecosystem early. A supportive habitat like Vidacity dramatically increases survival odds. (2) Start selling before you're ready. Early market testing at a loss generated invaluable feedback. (3) Build a team with complementary skills, not just shared passion. (4) Treat hackathon wins as seed funding, not validation. The real work begins after the prize. (5) Embrace the unglamorous work. Sorting food waste at midnight is the reality behind every sustainability pitch deck."
+    "content": "Five things we took away from watching BugBoom's journey: (1) Find your ecosystem early. A supportive habitat like Vidacity dramatically increases survival odds. (2) Start selling before you're ready. Early market testing at a loss generated invaluable feedback. (3) Build a team with complementary skills, not just shared passion. (4) Treat hackathon wins as seed funding, not validation. The real work begins after the prize. (5) Embrace the unglamorous work. Sorting food waste at midnight is the reality behind every sustainability pitch deck."
   }
 ]

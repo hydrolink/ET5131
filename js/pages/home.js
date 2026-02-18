@@ -52,7 +52,7 @@ export function renderHome() {
       el('div', { className: 'hero-content' },
         el('h1', { className: 'hero-title' }, "BugBoom x ET5131"),
         el('p', { className: 'hero-subtitle' },
-          'Black soldier fly larvae, food leftovers, and bold student founders come together in a living laboratory of circular innovation. This journal captures not just what we saw, but how our thinking about entrepreneurship, impact, and sustainability began to change.'
+          'This journal follows our visit to BugBoom — a student startup turning food waste into fertiliser using black soldier fly larvae. Here, we share what we learned, what surprised us, and how it changed the way we think about entrepreneurship and sustainability.'
         ),
         el('div', { className: 'hero-cta' },
           el('a', { className: 'btn btn-primary btn-lg', href: '#/journal' }, 'Start Reading →')

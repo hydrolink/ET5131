@@ -169,7 +169,7 @@ export function renderGallery() {
   const page = el('div', { className: 'page-gallery page-transition container' },
     el('div', { className: 'section-header' },
       el('h1', { className: 'section-title' }, 'Field Gallery'),
-      el('p', { className: 'section-subtitle' }, 'Captured moments from the wild')
+      el('p', { className: 'section-subtitle' }, 'Photos from our site visit')
     ),
     tabBar,
     contentArea

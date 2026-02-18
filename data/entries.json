@@ -28,10 +28,10 @@
       { "type": "text", "value": "Even from our first impressions seeing Vidacity being repurposed from a primary school, to seeing BugBoom’s founders being knee-deep in it's daily operations, unafraid to get their hands dirty with trays of black soldier fly larvae processing NTU Quad Cafe waste." },
       { "type": "text", "value": "And this learning journey ultimately shifted how I viewed entrepreneurship and the startup scene here in Singapore." },
       { "type": "image", "src": "assets/photos/BBsitevisit (73).jpg", "alt": "Sieving frass from the BSF larvae", "caption": "Sieving frass from the BSF larvae" },
-      { "type": "text", "value": "What they shared, and the passion that they exuded was raw and unfiltered, fueled by relatable motivation, their answers were unscripted and clearly backed by what they’ve learnt along the way through trial and error." },
-      { "type": "text", "value": "This demystified the entrepreneurship journey for me, revealing how it's 90% persistence through seemingly-endless hurdles like scaling pains, working around space constraints, and forging and maintaining long-term professional relationships." },
+{ "type": "text", "value": "What they shared, and the passion they had was genuine and unfiltered, fueled by relatable motivation, their answers were unscripted and clearly backed by what they've learnt along the way through trial and error." },
+      { "type": "text", "value": "It showed me that entrepreneurship is mostly just pushing through one problem after another — scaling issues, not having enough space, and trying to keep good working relationships going." },
       { "type": "text", "value": "This really cracked my perfectionist mindset, showing me that ideas can be developed over time and does not need to, and is practically impossible, to be bulletproof from the beginning." },
-      { "type": "text", "value": "Real ventures evolve through scrappy iteration, starting imperfect and refined over time. Entrepreneurship here isn't about perfection; it's about embracing the mess to create meaningful impact." }
+      { "type": "text", "value": "Real startups grow by just trying things, messing up, and improving as they go. It's not about having everything figured out from day one — it's about being okay with the mess." }
     ],
     "keyTakeaways": [
       "Passion and persistence are more important than perfection in early-stage ventures",
@@ -43,17 +43,17 @@
     "title": "Small Creatures, Big Circular Dreams",
     "date": "2026-02-07",
     "tags": ["xin-yang", "reflection"],
-    "summary": "In a former school turned sustainability hub, I met BugBoom’s four founders and watched their Black Soldier Fly system quietly do something we struggle with at scale: turn “waste” into inputs again.",
+"summary": "In a former school turned sustainability hub, I met BugBoom's four founders and saw their Black Soldier Fly system in action — turning food waste back into something useful.",
     "heroImage": "assets/photos/BBsitevisit (68).jpg",
     "content": [
-      { "type": "text", "value": "In a former school turned sustainability hub, I met BugBoom’s four founders and watched their Black Soldier Fly system quietly do something we struggle with at scale: turn “waste” into inputs again." },
+      { "type": "text", "value": "In a former school turned sustainability hub, I met BugBoom's four founders and saw their Black Soldier Fly system in action — turning food waste back into something useful." },
       { "type": "text", "value": "Vidacity still feels like it remembers its previous life as a school. Classrooms have been repurposed into startup spaces, and the whole campus carries this quiet message: you can reuse what already exists, instead of building from scratch." },
       { "type": "title", "value": "Meeting the people behind BugBoom" },
       { "type": "text", "value": "During the visit, I got to speak with all four founders — Sreeram Vasanth, Ivan Ong, Lim En Cheng, and Taha Basrai." },
-{ "type": "text", "value": "What struck me right away was how raw the work is. BugBoom isn't a sustainability project you can just present in slides. It's messy, hands-on work — you can't just talk your way through it, you have to actually do it." }
+{ "type": "text", "value": "What struck me right away was how raw the work is. BugBoom isn't a sustainability project you can just present in slides. It's messy, hands-on work — you can't just talk your way through it, you have to actually do it." },
       { "type": "text", "value": "From what they share publicly, BugBoom’s mission is to tackle food waste by cultivating Black Soldier Flies and using their by-products to recirculate nutrients back into the economy — through a mix of food-waste management services, products, and educational workshops." },
       { "type": "title", "value": "The moment it clicked for me" },
-      { "type": "text", "value": "I’ve heard “circular economy” so many times that it’s started to sound like a slogan. But standing there, watching the system up close, the idea became… embarrassingly simple." },
+      { "type": "text", "value": "I’ve heard “circular economy” thrown around so many times it’s basically a buzzword at this point. But standing there, watching the system up close, it just clicked." },
       { "type": "text", "value": "Food waste isn’t “gone” just because we throw it away. It becomes someone else’s problem — and usually, it becomes it fast. BugBoom’s approach flips that story: treat food waste as a feedstock, and build a process where outputs are useful again." },
       { "type": "text", "value": "And it’s not just the biology that’s hard. The founders kept circling back to the unglamorous parts:" },
       { "type": "bullet-list", "value": [
@@ -62,14 +62,14 @@
         "how trust and partnerships matter when you’re dealing with other people’s waste streams,",
         "and how education is part of scaling, because public perception can be a bigger barrier than technology."
       ] },
-      { "type": "text", "value": "I left with a new respect for “messy” sustainability — the kind that doesn’t photograph nicely, but actually moves numbers." },
+      { "type": "text", "value": "I left with more respect for the kind of sustainability work that doesn’t look good on Instagram but actually makes a difference." },
       { "type": "title", "value": "What I’m taking away (personally)" },
       { "type": "text", "value": "Today reminded me that sustainability isn’t just about having the right values — it’s about building systems that still work when conditions aren’t perfect." },
       { "type": "image", "src": "assets/photos/BBsitevisit (43).jpg", "alt": "Vidacity's Grand Opening Signage", "caption": "Vidacity's Grand Opening Signage" },
       { "type": "text", "value": "BugBoom made me reflect on two things:" },
       { "type": "number-list", "value": [
-        "Impact can be physical. You can literally see transformation when the process is real, measurable, and repeatable.",
-        "Founders are translators. They’re translating a climate problem into a set of daily decisions: what to measure, what to test, what to fix, and what to explain—again and again."
+        "You can actually see the impact happening right in front of you when the process works.",
+        "The founders are basically turning a huge climate problem into a list of daily to-dos — what to test, what to fix, what to explain to people."
       ]
       },
       { "type": "text", "value": "On the ride home, I caught myself thinking: if four students can take on a problem as unsexy as food waste and still keep showing up to iterate, then the least I can do is be more intentional about what I waste — and how I think about “invisible” environmental problems." },
@@ -99,22 +99,22 @@
     "title": "Waste as a Design Challenge",
     "date": "2026-02-07",
     "tags": ["ray-en", "reflection"],
-    "summary": "Visiting BugBoom and listening to their sharing made \"food waste\" feel a lot less like an abstract environmental problem and a lot more like a design challenge, one that can be solved with the right biology, systems thinking, and discipline in execution.",
+    "summary": "Visiting BugBoom and listening to their sharing made \"food waste\" feel a lot less like an abstract environmental problem and a lot more like a design challenge that can actually be solved.",
     "heroImage": "assets/photos/BBsitevisit (37).jpg",
     "content": [
       { "type": "title", "value": "Reflection after visiting BugBoom" },
-      { "type": "text", "value": "Visiting BugBoom's site and listening to their sharing made \"food waste\" feel a lot less like an abstract environmental problem and a lot more like a design challenge. One that can be solved with the right biology, systems thinking, and discipline in execution. BugBoom positions their work as transforming food waste into \"high-quality farm products\" using Black Soldier Fly (BSF) technology, which immediately reframed waste from \"something to throw away\" into a nutrient stream that can be redirected." },
+      { "type": "text", "value": "Visiting BugBoom's site and listening to their sharing made \"food waste\" feel a lot less like an abstract environmental problem and a lot more like a design challenge. BugBoom uses Black Soldier Fly (BSF) technology to turn food waste into useful farm products. It changed how I think about waste — it's not just trash, it's nutrients that can go somewhere useful." },
       { "type": "image", "src": "assets/photos/BBsitevisit (68).jpg", "alt": "Vidacity campus, a former primary school turned green sustainability hub", "caption": "Vidacity campus, where BugBoom calls home." },
-      { "type": "text", "value": "What stuck with me most was how practical their mindset was. They didn't present sustainability as a \"feel-good\" idea. They presented it as an operational pipeline, a process with inputs, controls, outputs, and real-world constraints like contamination, consistency of food waste supply, space, and community acceptance. They also highlighted that the need is urgent: Singapore generated 784,000 tonnes of food waste in 2024, and only 18% was recycled. So improving diversion and treatment methods is not optional if we care about long-term resilience." },
+{ "type": "text", "value": "What stuck with me was how practical they were about it. They didn't talk about sustainability like it's some feel-good concept. To them, it's a process with real constraints — contamination, inconsistent food waste, limited space, and getting people to actually be okay with insect farming. They also pointed out that it's urgent: Singapore generated 784,000 tonnes of food waste in 2024, and only 18% was recycled. We can't afford to ignore that." },
       { "type": "text", "value": "One interesting line from their sharing:" },
       { "type": "text", "value": "\"We're not just managing waste, we're keeping nutrients in the loop, where they belong.\"" },
-      { "type": "text", "value": "It captures the \"circular economy\" framing behind what they do: divert food waste from disposal, process it through BSF-based systems, and return value to agriculture and learning communities." },
+      { "type": "text", "value": "That basically sums up what they're doing: take food waste that would be thrown away, run it through BSF systems, and turn it into something useful for farmers and schools." },
       { "type": "title", "value": "BugBoom's process: from waste to value" },
-      { "type": "text", "value": "Food waste is a major waste stream in Singapore and has a relatively low recycling rate. According to the National Environment Agency, food waste made up about 12% of total waste generated in 2024. 784,000 tonnes were generated, and the recycling rate was 18%. This gap creates an opportunity for solutions that can reduce disposal load, recover nutrients, and create usable outputs like fertiliser and feed inputs, while remaining safe and scalable." },
+      { "type": "text", "value": "Food waste is one of the biggest waste streams in Singapore, and the recycling rate is still pretty low. According to NEA, food waste made up about 12% of total waste in 2024 — 784,000 tonnes generated, only 18% recycled. That's a lot of food going to waste, and there's clearly room for solutions that can turn some of it into useful stuff like fertiliser." },
       { "type": "image", "src": "assets/photos/BBsitevisit (69).jpg", "alt": "Non-conforming bread donated by Chewy Junior's used as feedstock", "caption": "Non-conforming bread from Chewy Junior's, repurposed as BSF feedstock." },
       { "type": "text", "value": "BugBoom's model uses BSF technology to convert food waste into high-quality farm products, and they also promote on-site BSF composting as a pathway for localised waste treatment. They offer food waste management services, BSF-related products, and educational workshops for the public and schools." },
       { "type": "title", "value": "The operational pipeline" },
-      { "type": "text", "value": "Here's how their end-to-end workflow looks as a BSF-based waste valorisation pipeline:" },
+      { "type": "text", "value": "Here's how their process works from start to finish:" },
       { "type": "number-list", "value": [
         "Source food waste from partner sites or managed collection points.",
         "Screen and prep the waste to reduce contamination and keep feedstock consistent. This is critical for stable conversion outcomes.",
@@ -128,10 +128,10 @@
       { "type": "image", "src": "assets/photos/BBsitevisit (71).jpg", "alt": "Mixing nutritious feed for the BSF larvae in the lab", "caption": "Mixing nutritious feed for the BSF larvae." },
       { "type": "image", "src": "assets/photos/BBsitevisit (73).jpg", "alt": "Sieving frass to separate it from the larvae", "caption": "Sieving the frass (fertiliser) from the larvae. This is where the value gets extracted." },
       { "type": "title", "value": "Education and outreach" },
-      { "type": "text", "value": "A strong differentiator for BugBoom is that they don't only run the technical system. They also build awareness and literacy through structured workshops for different learner levels, from students to the general public. They even promote household-level participation concepts like \"household BSF farming,\" which suggests they're exploring both institutional and grassroots adoption pathways." },
+      { "type": "text", "value": "What sets BugBoom apart is that they don't just run the technical side. They also run workshops for students and the public to teach people about BSF and sustainability. They even talk about getting households to try BSF farming at home, which shows they're thinking about this at every level." },
       { "type": "image", "src": "assets/photos/BBsitevisit (74).jpg", "alt": "Newspaper mushroom exhibit at Vidacity showcasing upcycled art", "caption": "Creative upcycling on display at Vidacity. Sustainability is everywhere here." },
       { "type": "title", "value": "Why this matters" },
-      { "type": "text", "value": "BugBoom's model is aligned with a broader Singapore push to improve food waste segregation and treatment, and to raise recycling outcomes. This includes newer requirements for large generators to segregate, treat, and report food waste. In other words, their approach fits the direction of travel: treat food waste as a managed resource, not just something to dispose of." },
+      { "type": "text", "value": "What BugBoom is doing lines up with Singapore's push to improve food waste recycling. There are already newer rules requiring large food waste generators to separate and treat their waste. So BugBoom is moving in the same direction the country is heading." },
       { "type": "title", "value": "A special question for the founders" },
       { "type": "text", "value": "We got to ask each of the four founders a pretty spicy question: \"At what valuation would you sell BugBoom?\" Their answers were all over the place, and honestly, that's what made it so interesting." },
       { "type": "bullet-list", "value": [
@@ -140,15 +140,15 @@
         "Vasanth Sreeram shared that investors currently evaluate them at $5 million, but at $6 million he'd be willing to sell.",
         "Taha Basrai said $350k."
       ] },
-      { "type": "text", "value": "What's fascinating here is how wildly different each founder's answer is, even though they're all building the same company together. You've got one founder who wouldn't sell at any price, another who'd take $350k, and two others somewhere in between. It really makes you wonder: how much of a startup's \"value\" is about the numbers, and how much is about personal attachment, identity, and what the venture means to each person? It also raises a real question about what happens when co-founders have such different thresholds. At what point does that misalignment become a problem? Or maybe it's actually healthy, because it means at least some of them will always fight to keep the company alive." },
+      { "type": "text", "value": "What's interesting is how different each answer was, even though they're all building the same company. You've got one founder who wouldn't sell at any price, another who'd take $350k, and two others somewhere in between. It made me think about how much of a startup's value is just numbers versus how much of it is personal — like what the company means to each of them individually. You've got to wonder if that kind of difference causes problems down the road. But then again, maybe it's a good thing — at least some of them will always want to keep going no matter what." },
       { "type": "title", "value": "What I'm taking away" },
-      { "type": "text", "value": "What I appreciate about BugBoom is that they make sustainability feel specific and actionable: a clear input (food waste), a biological engine (BSF larvae), and outputs that reconnect to productive use. All paired with education so that more people can understand and trust the process." },
+      { "type": "text", "value": "What I like about BugBoom is that they make sustainability concrete — food waste goes in, larvae do their work, and useful products come out. And they pair all of that with education so people actually understand and trust the process." },
       { "type": "image", "src": "assets/photos/BBsitevisit (43).jpg", "alt": "Vidacity's Grand Opening Signage", "caption": "Vidacity's Grand Opening Signage, a reminder that this space was built with purpose." },
-      { "type": "text", "value": "It's not just about having the right values. It's about building systems that still work when conditions aren't perfect. And that's what makes BugBoom's story so compelling to me." }
+      { "type": "text", "value": "It's not just about caring. It's about building something that works even when things get messy. That's what I respect about them." }
     ],
     "keyTakeaways": [
-      "Food waste is not just waste, it's a nutrient stream that can be redirected with the right systems",
-      "Sustainability in practice looks more like an operational pipeline than a feel-good idea",
+      "Food waste isn't just waste — with the right setup, you can redirect the nutrients",
+      "Real sustainability work looks more like a daily operation than a feel-good campaign",
       "Education and community trust are just as important as the technical process itself",
       "Co-founders can have wildly different views on what their company is worth, and that tension says a lot about their motivations"
     ]
@@ -163,10 +163,10 @@
     "content": [
       { "type": "text", "value": "Had a really meaningful experience visiting Vidacity and BugBoom. As a university student exploring the startup journey, it was inspiring to see how both teams turned real-world problems into practical solutions with clear business direction." },
       { "type": "image", "src": "assets/photos/BBsitevisit (25).jpg", "alt": "Upcycled art and crafts on display at Vidacity", "caption": "Creative upcycling on display at Vidacity." },
-      { "type": "text", "value": "At Vidacity, I appreciated how the concept goes beyond just innovation. It showed how technology, sustainability and user needs can come together in a scalable ecosystem. It made me reflect on how important long-term vision and system-level thinking are when building a startup." },
+      { "type": "text", "value": "At Vidacity, I appreciated how the concept goes beyond just innovation. It showed how tech, sustainability, and what people actually need can work together in one space. It made me think about how much long-term planning matters when building a startup." },
       { "type": "image", "src": "assets/photos/BBsitevisit (56).jpg", "alt": "BSF larvae being sieved and sorted at BugBoom's facility", "caption": "A closer look at the BSF larvae at BugBoom's facility." },
-      { "type": "text", "value": "At BugBoom, it was eye-opening to learn how they approach sustainability through a unique and impactful business model. Seeing how they combine science, operations and market demand gave me a better understanding of what it takes to run a startup beyond just having a good idea." },
-      { "type": "text", "value": "Overall, the visit was both motivating and educational! It gave me a clearer perspective on how startups grow from concept to execution, and what it means to build something with real impact." }
+      { "type": "text", "value": "At BugBoom, it was eye-opening to learn how they approach sustainability through their business model. Seeing how they balance the science, the day-to-day work, and actual demand showed me that running a startup is way more than just having a good idea." },
+      { "type": "text", "value": "Overall, the visit was really eye-opening! I have a much better sense now of what it actually takes to go from an idea to something real, and what building something with actual impact looks like." }
     ],
     "keyTakeaways": []
   }
