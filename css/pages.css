@@ -481,6 +481,111 @@
   aspect-ratio: 4/3;
 }
 
+/* ---- ENTREPRENEURIAL ANALYSIS SECTION ---- */
+.analysis-section {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-8);
+  margin-bottom: var(--sp-6);
+  box-shadow: 0 2px 8px var(--shadow-soft);
+}
+
+.analysis-header {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-6);
+  padding-bottom: var(--sp-4);
+  border-bottom: 2px solid var(--primary-dim);
+}
+
+.analysis-icon {
+  font-size: var(--fs-2xl);
+  line-height: 1;
+}
+
+.analysis-title {
+  font-family: var(--font-display);
+  font-size: var(--fs-2xl);
+  color: var(--primary);
+  line-height: 1.2;
+  margin: 0;
+}
+
+.analysis-subsection {
+  margin-bottom: var(--sp-6);
+}
+
+.analysis-subsection:last-child {
+  margin-bottom: 0;
+}
+
+.analysis-subheading {
+  font-family: var(--font-display);
+  font-size: var(--fs-xl);
+  color: var(--text);
+  margin-bottom: var(--sp-3);
+  position: relative;
+  padding-left: var(--sp-4);
+}
+
+.analysis-subheading::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 4px;
+  bottom: 4px;
+  width: 3px;
+  background: var(--primary);
+  border-radius: 2px;
+}
+
+.analysis-paragraph {
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  color: var(--text-muted);
+  line-height: 1.75;
+  margin-bottom: var(--sp-4);
+}
+
+.analysis-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.analysis-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.analysis-list li {
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  color: var(--text-muted);
+  line-height: 1.7;
+  padding: var(--sp-3) 0;
+  padding-left: var(--sp-6);
+  position: relative;
+  border-bottom: 1px solid rgba(85, 103, 98, 0.3);
+}
+
+.analysis-list li:last-child {
+  border-bottom: none;
+}
+
+.analysis-list li::before {
+  content: '▸';
+  position: absolute;
+  left: var(--sp-2);
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.analysis-list li strong {
+  color: var(--text);
+}
+
 /* ---- VIDEOS PAGE ---- */
 .videos-grid {
   display: grid;

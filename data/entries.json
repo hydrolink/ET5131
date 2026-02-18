@@ -50,7 +50,7 @@
       { "type": "text", "value": "Vidacity still feels like it remembers its previous life as a school. Classrooms have been repurposed into startup spaces, and the whole campus carries this quiet message: you can reuse what already exists, instead of building from scratch." },
       { "type": "title", "value": "Meeting the people behind BugBoom" },
       { "type": "text", "value": "During the visit, I got to speak with all four founders — Sreeram Vasanth, Ivan Ong, Lim En Cheng, and Taha Basrai." },
-      { "type": "text", "value": "What struck me immediately was how unpolished (in a good way) the work is. BugBoom isn’t the kind of sustainability project that lives comfortably in slides. It’s hands-on, operational, and a little uncomfortable — the kind of work where you can’t “idea” your way out of reality." },
+{ "type": "text", "value": "What struck me right away was how raw the work is. BugBoom isn't a sustainability project you can just present in slides. It's messy, hands-on work — you can't just talk your way through it, you have to actually do it." }
       { "type": "text", "value": "From what they share publicly, BugBoom’s mission is to tackle food waste by cultivating Black Soldier Flies and using their by-products to recirculate nutrients back into the economy — through a mix of food-waste management services, products, and educational workshops." },
       { "type": "title", "value": "The moment it clicked for me" },
       { "type": "text", "value": "I’ve heard “circular economy” so many times that it’s started to sound like a slogan. But standing there, watching the system up close, the idea became… embarrassingly simple." },
@@ -73,7 +73,7 @@
       ]
       },
       { "type": "text", "value": "On the ride home, I caught myself thinking: if four students can take on a problem as unsexy as food waste and still keep showing up to iterate, then the least I can do is be more intentional about what I waste — and how I think about “invisible” environmental problems." },
-      { "type": "text", "value": "Some solutions don’t look heroic. Sometimes they look like a small team, a lot of trial-and-error, and a box where nature is quietly doing the work." }
+{ "type": "text", "value": "Not every solution has to look impressive. Sometimes it's just a small team, a lot of mistakes, and a box of larvae doing their thing." }
     ],
     "keyTakeaways": []
   },

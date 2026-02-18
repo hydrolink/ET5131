@@ -3,7 +3,7 @@
     "id": "finding-01",
     "title": "Odorless Waste Processing",
     "category": "Methods",
-    "icon": "🔬",
+    "icon": "◆",
     "pinned": true,
     "content": "Contrary to the expectation that rotting food and insect farming would be pungent, BugBoom has achieved a completely odorless process. Through precise environmental control and the rapid consumption rate of the larvae, they have eliminated the smell factor entirely. This \"invisible\" processing allows them to operate in semi-urban spaces (like Vidacity) without causing community friction, a feat rarely seen in waste management."
   },
@@ -11,7 +11,7 @@
     "id": "finding-02",
     "title": "Education as a Product",
     "category": "Results",
-    "icon": "🌱",
+    "icon": "◇",
     "pinned": true,
     "content": "BugBoom's impact isn't limited to fertilizer production; they have successfully commoditized \"knowledge\" through workshops and community engagement. By positioning themselves as educators inspiring future environmental leaders, they create a secondary value stream that supports their mission. The result is a brand that sells sustainability culture, not just agricultural products."
   },
@@ -19,7 +19,7 @@
     "id": "finding-03",
     "title": "Hackathon to Reality Transition & Financial Accountability",
     "category": "Lessons",
-    "icon": "✏️",
+    "icon": "●",
     "pinned": true,
     "content": "The most critical lesson here is the \"post-hackathon commitment.\" Most teams dissolve after winning a prize. BugBoom's founders used their $25k KSIP winnings as seed funding to validate their idea. Crucially, startup prizes like KSIP distribute funding in two tranches, the second half is only unlocked after six months of proving financial responsibility and satisfactory progress. This structured payout forces early-stage founders to remain accountable and proves that hackathons are merely the first step of the real work, not the final destination."
   },
@@ -27,15 +27,15 @@
     "id": "finding-04",
     "title": "The Reality of Unit Economics",
     "category": "Mistakes",
-    "icon": "📉",
+    "icon": "▼",
     "pinned": false,
-    "content": "Passion doesn't immediately pay the bills. A major challenge identified is the financial reality: BugBoom is currently selling their fertilizer at a loss (approx. $7/pack). The founders maintain their startup responsibilities while balancing other work and academics—a \"side hustle\" reality check for aspiring entrepreneurs who have to stretch their initial tranche of funding while proving their viability."
+    "content": "Passion doesn't immediately pay the bills. A major challenge identified is the financial reality: BugBoom is currently selling their fertilizer at a loss (approx. $7/pack). The founders maintain their startup responsibilities while balancing other work and academics, a \"side hustle\" reality check for aspiring entrepreneurs who have to stretch their initial tranche of funding while proving their viability."
   },
   {
     "id": "finding-05",
     "title": "Global Ambition from Day One",
     "category": "Next Steps",
-    "icon": "🚀",
+    "icon": "▸",
     "pinned": false,
     "content": "Despite being a local university spinoff, the team is already planning for \"International Expansion\" (led by Taha). The next step isn't just dominating the local market but preparing the technical equipment and operational scalability for global outreach. This suggests they are building a \"franchise-ready\" model rather than just a local farm."
   },
@@ -43,8 +43,32 @@
     "id": "finding-06",
     "title": "Ecosystems Enable Survival",
     "category": "Lessons",
-    "icon": "✏️",
+    "icon": "◎",
     "pinned": false,
     "content": "The startup journey is fragile. BugBoom's survival is heavily supported by the Vidacity ecosystem, which provides essential resources, mentorship, and crucially, affordable workspace (<$500/month). For purpose-driven startups, finding a supportive \"habitat\" like Vidacity is as important as the idea itself. It allows founders to focus on \"Why, What, How\" rather than just rent."
+  },
+  {
+    "id": "finding-07",
+    "title": "Four Founders, One Shared Purpose",
+    "category": "Lessons",
+    "icon": "◉",
+    "pinned": true,
+    "content": "BugBoom's four co-founders (Sreeram Vasanth, Ivan Ong, Lim En Cheng, and Taha Basrai) each bring distinct expertise (operations, international expansion, R&D, outreach) but share one unshakeable motivation: transforming Singapore's food waste crisis into a circular economy opportunity. Their passion was raw and unscripted during our visit, referring to BSF larvae as their 'babies' and speaking with a conviction clearly backed by trial and error, not rehearsed pitches. Their drive stems not from profit but from a genuine belief that waste is a misplaced resource."
+  },
+  {
+    "id": "finding-08",
+    "title": "From Perfectionism to Scrappy Iteration",
+    "category": "Lessons",
+    "icon": "○",
+    "pinned": false,
+    "content": "The founders' entrepreneurial journey demanded a fundamental mindset shift. They entered expecting to build a bulletproof plan before launching, but quickly learned that real ventures evolve through scrappy iteration. Key knowledge acquired on-the-fly included BSF biology and optimal rearing conditions, regulatory compliance for insect-based products in Singapore, unit economics of fertiliser production, waste collection logistics, and community engagement strategies. The gap between 'hackathon knowledge' and 'operational knowledge' was vast, bridged only through persistent trial and error."
+  },
+  {
+    "id": "finding-09",
+    "title": "Advice for Future Founders",
+    "category": "Next Steps",
+    "icon": "✦",
+    "pinned": false,
+    "content": "Five recommendations distilled from observing BugBoom's journey: (1) Find your ecosystem early. A supportive habitat like Vidacity dramatically increases survival odds. (2) Start selling before you're ready. Early market testing at a loss generated invaluable feedback. (3) Build a team with complementary skills, not just shared passion. (4) Treat hackathon wins as seed funding, not validation. The real work begins after the prize. (5) Embrace the unglamorous work. Sorting food waste at midnight is the reality behind every sustainability pitch deck."
   }
 ]

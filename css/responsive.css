@@ -201,6 +201,24 @@
     max-width: none;
   }
 
+  /* Analysis sections on mobile */
+  .analysis-section {
+    padding: var(--sp-5) var(--sp-4);
+    margin-bottom: var(--sp-4);
+  }
+
+  .analysis-title {
+    font-size: var(--fs-xl);
+  }
+
+  .analysis-subheading {
+    font-size: var(--fs-lg);
+  }
+
+  .analysis-list li {
+    padding-left: var(--sp-5);
+  }
+
   /* Gallery filter categories */
   .gallery-filter-bar .search-container {
     max-width: none;

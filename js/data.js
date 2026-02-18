@@ -8,19 +8,21 @@ let backstory = null;
 let findings = null;
 let videos = null;
 let timeline = null;
+let analysis = null;
 
 /**
  * Load all JSON data files
  */
 export async function loadAllData() {
   try {
-    const [entriesRes, galleryRes, backstoryRes, findingsRes, videosRes, timelineRes] = await Promise.all([
+    const [entriesRes, galleryRes, backstoryRes, findingsRes, videosRes, timelineRes, analysisRes] = await Promise.all([
       fetch('data/entries.json'),
       fetch('data/gallery.json'),
       fetch('data/backstory.json'),
       fetch('data/findings.json'),
       fetch('data/videos.json'),
-      fetch('data/timeline.json')
+      fetch('data/timeline.json'),
+      fetch('data/analysis.json')
     ]);
 
     entries = await entriesRes.json();
@@ -29,6 +31,10 @@ export async function loadAllData() {
     findings = await findingsRes.json();
     videos = await videosRes.json();
     timeline = await timelineRes.json();
+    analysis = await analysisRes.json();
+
+    // Sort analysis by order
+    analysis.sort((a, b) => a.order - b.order);
 
     // Sort entries by date descending
     entries.sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -48,6 +54,7 @@ export async function loadAllData() {
     findings = findings || [];
     videos = videos || [];
     timeline = timeline || [];
+    analysis = analysis || [];
   }
 }
 
@@ -110,4 +117,9 @@ export function getFindingCategories() {
   const cats = new Set();
   (findings || []).forEach(f => cats.add(f.category));
   return Array.from(cats);
+}
+
+/** Get all analysis sections */
+export function getAnalysis() {
+  return analysis || [];
 }

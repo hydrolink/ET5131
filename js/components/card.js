@@ -155,8 +155,51 @@ export function renderVideoCard(video) {
 }
 
 /**
- * Render a finding/insight card
+ * Render a structured analysis section
  */
+export function renderAnalysisSection(section) {
+  const subsectionEls = section.subsections.map(sub => {
+    const children = [];
+
+    children.push(el('h3', { className: 'analysis-subheading' }, sub.heading));
+
+    if (sub.paragraphs) {
+      sub.paragraphs.forEach(p => {
+        children.push(el('p', { className: 'analysis-paragraph' }, p));
+      });
+    }
+
+    if (sub.bullets) {
+      children.push(
+        el('ul', { className: 'analysis-list' },
+          ...sub.bullets.map(b => {
+            const parts = b.split(': ');
+            if (parts.length >= 2) {
+              const li = el('li', {});
+              li.innerHTML = `<strong>${parts[0]}:</strong> ${parts.slice(1).join(': ')}`;
+              return li;
+            }
+            return el('li', {}, b);
+          })
+        )
+      );
+    }
+
+    return el('div', { className: 'analysis-subsection' }, ...children);
+  });
+
+  return el('div', {
+    className: 'analysis-section',
+    dataset: { reveal: '' }
+  },
+    el('div', { className: 'analysis-header' },
+      el('span', { className: 'analysis-icon' }, section.icon),
+      el('h2', { className: 'analysis-title' }, section.title)
+    ),
+    ...subsectionEls
+  );
+}
+
 export function renderFindingCard(finding) {
   const categoryColors = {
     'Methods': 'tag-methods',
@@ -172,7 +215,7 @@ export function renderFindingCard(finding) {
     className: `insight-card ${finding.pinned ? 'pinned' : ''}`,
     dataset: { reveal: '' }
   },
-    finding.pinned ? el('div', { className: 'pin-badge', 'aria-label': 'Pinned insight' }, '📌') : null,
+    finding.pinned ? el('div', { className: 'pin-badge', 'aria-label': 'Pinned insight' }, '★') : null,
     el('div', { className: 'insight-icon' }, finding.icon),
     el('span', { className: `insight-category ${colorClass}` }, finding.category),
     el('h3', { className: 'insight-title' }, finding.title),

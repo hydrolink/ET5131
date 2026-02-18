@@ -3,8 +3,8 @@
 // ============================================
 
 import { el } from '../utils/dom.js';
-import { getFindings } from '../data.js';
-import { renderFindingCard } from '../components/card.js';
+import { getFindings, getAnalysis } from '../data.js';
+import { renderFindingCard, renderAnalysisSection } from '../components/card.js';
 import { observeElements } from '../components/scrollReveal.js';
 
 export function renderFindings() {
@@ -21,7 +21,7 @@ export function renderFindings() {
     // Pinned top 3
     pinned.length > 0 ? el('section', { className: 'pinned-section', 'aria-label': 'Pinned insights' },
       el('div', { className: 'pinned-header', dataset: { reveal: '' } },
-        el('span', {}, '📌'),
+        el('span', {}, '★'),
         el('h3', {}, 'Top Insights')
       ),
       el('div', { className: 'pinned-grid' },
@@ -48,7 +48,24 @@ export function renderFindings() {
     // All findings grid
     el('div', { className: 'findings-grid' },
       ...all.map(f => renderFindingCard(f))
-    )
+    ),
+
+    // Analysis separator
+    el('div', {
+      style: {
+        borderTop: '2px solid var(--primary)',
+        margin: 'var(--sp-12) 0 var(--sp-10)',
+        opacity: '0.4'
+      }
+    }),
+
+    // Entrepreneurial Analysis header
+    el('div', { className: 'section-header', dataset: { reveal: '' } },
+      el('h2', { className: 'section-title' }, 'Entrepreneurial Analysis'),
+    ),
+
+    // Analysis sections
+    ...getAnalysis().map(section => renderAnalysisSection(section))
   );
 
   setTimeout(() => observeElements(), 50);
