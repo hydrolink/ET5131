@@ -1,50 +1,50 @@
 [
   {
     "id": "finding-01",
-    "title": "Slow Observation Beats Fast Data",
+    "title": "Odorless Waste Processing",
     "category": "Methods",
     "icon": "🔬",
     "pinned": true,
-    "content": "The most valuable field observations came not from systematic sampling, but from unstructured time spent sitting quietly in one location. Thirty minutes of patient watching revealed behaviors, interactions, and species that rapid surveys consistently missed. Slow science is underrated."
+    "content": "Contrary to the expectation that rotting food and insect farming would be pungent, BugBoom has achieved a completely odorless process. Through precise environmental control and the rapid consumption rate of the larvae, they have eliminated the smell factor entirely. This \"invisible\" processing allows them to operate in semi-urban spaces (like Vidacity) without causing community friction, a feat rarely seen in waste management."
   },
   {
     "id": "finding-02",
-    "title": "Mycorrhizal Networks Are Everywhere",
+    "title": "Education as a Product",
     "category": "Results",
-    "icon": "🍄",
+    "icon": "🌱",
     "pinned": true,
-    "content": "Every soil sample showed evidence of mycorrhizal fungi connecting root systems across species. The 'wood wide web' isn't a metaphor—it's a measurable reality. Trees in our study plots shared carbon through fungal networks, with nurse trees supporting younger saplings through underground transfers."
+    "content": "BugBoom's impact isn't limited to fertilizer production; they have successfully commoditized \"knowledge\" through workshops and community engagement. By positioning themselves as educators inspiring future environmental leaders, they create a secondary value stream that supports their mission. The result is a brand that sells sustainability culture, not just agricultural products."
   },
   {
     "id": "finding-03",
-    "title": "Field Sketching Improves Retention",
+    "title": "Hackathon to Reality Transition & Financial Accountability",
     "category": "Lessons",
     "icon": "✏️",
     "pinned": true,
-    "content": "Entries paired with hand-drawn sketches (even rough ones) showed significantly higher recall and richer observations than photo-only entries. The act of drawing forces you to look more carefully, notice proportions, and engage with your subject in a way that photography shortcuts. Add sketching to your field practice."
+    "content": "The most critical lesson here is the \"post-hackathon commitment.\" Most teams dissolve after winning a prize. BugBoom's founders used their $25k KSIP winnings as seed funding to validate their idea. Crucially, startup prizes like KSIP distribute funding in two tranches, the second half is only unlocked after six months of proving financial responsibility and satisfactory progress. This structured payout forces early-stage founders to remain accountable and proves that hackathons are merely the first step of the real work, not the final destination."
   },
   {
     "id": "finding-04",
-    "title": "GPS Dependency Was a Mistake",
+    "title": "The Reality of Unit Economics",
     "category": "Mistakes",
-    "icon": "🧭",
+    "icon": "📉",
     "pinned": false,
-    "content": "Over-relying on GPS navigation led to a dangerous situation when batteries died on a remote trail. Traditional map-and-compass skills are not redundant—they're essential backup. After this incident, I now carry paper maps and practice dead reckoning on every trip. Technology should augment wildcraft, not replace it."
+    "content": "Passion doesn't immediately pay the bills. A major challenge identified is the financial reality: BugBoom is currently selling their fertilizer at a loss (approx. $7/pack). The founders maintain their startup responsibilities while balancing other work and academics—a \"side hustle\" reality check for aspiring entrepreneurs who have to stretch their initial tranche of funding while proving their viability."
   },
   {
     "id": "finding-05",
-    "title": "Weather Prediction Is a Learnable Skill",
-    "category": "Results",
-    "icon": "🌤️",
+    "title": "Global Ambition from Day One",
+    "category": "Next Steps",
+    "icon": "🚀",
     "pinned": false,
-    "content": "After a week of deliberate cloud watching and barometer reading, weather prediction accuracy reached approximately 75% for 12-hour forecasts using natural signs alone. Key indicators: cloud type progression (cirrus → cirrostratus → altostratus = rain incoming), wind direction shifts, animal behavior changes, and barometric pressure trends."
+    "content": "Despite being a local university spinoff, the team is already planning for \"International Expansion\" (led by Taha). The next step isn't just dominating the local market but preparing the technical equipment and operational scalability for global outreach. This suggests they are building a \"franchise-ready\" model rather than just a local farm."
   },
   {
     "id": "finding-06",
-    "title": "Build Local Species Checklists",
-    "category": "Next Steps",
-    "icon": "📋",
+    "title": "Ecosystems Enable Survival",
+    "category": "Lessons",
+    "icon": "✏️",
     "pinned": false,
-    "content": "Creating region-specific checklists for trees, birds, fungi, and wildflowers dramatically accelerated field identification. Next step: develop a personal identification key for the 50 most common species in our study area, complete with seasonal markers, habitat preferences, and distinguishing features. Consider sharing these as open-access field guides."
+    "content": "The startup journey is fragile. BugBoom's survival is heavily supported by the Vidacity ecosystem, which provides essential resources, mentorship, and crucially, affordable workspace (<$500/month). For purpose-driven startups, finding a supportive \"habitat\" like Vidacity is as important as the idea itself. It allows founders to focus on \"Why, What, How\" rather than just rent."
   }
 ]

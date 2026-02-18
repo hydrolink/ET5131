@@ -76,5 +76,22 @@
       { "type": "text", "value": "Some solutions don’t look heroic. Sometimes they look like a small team, a lot of trial-and-error, and a box where nature is quietly doing the work." }
     ],
     "keyTakeaways": []
+  },
+  {
+    "id": "hazel-reflection",
+    "title": "From Theory to Reality",
+    "date": "2026-02-07",
+    "tags": ["hazel", "reflection"],
+    "summary": "Sustainability is a trendy topic nowadays. In Interdisciplinary Collaborative Core modules, we often discuss it theoretically, proposing solutions filled with scientific and technical terms. Sometimes, those ideas can be distant and hard to relate to. Visiting BugBoom gave me a much more realistic understanding of what sustainability looks like in practice in a startup setting.",
+    "heroImage": "assets/photos/BBsitevisit (5).jpg",
+    "content": [
+      { "type": "text", "value": "Sustainability is a trendy topic nowadays. In Interdisciplinary Collaborative Core modules, we often discuss it theoretically, proposing solutions filled with scientific and technical terms. Sometimes, those ideas can be distant and hard to relate to. Visiting BugBoom gave me a much more realistic understanding of what sustainability looks like in practice in a startup setting." },
+      { "type": "text", "value": "Vidacity welcomed us with a strong sense of everyday life. The nostalgic primary school setting, lively fish, and well-maintained greenery created a cozy atmosphere. This practical and grounded environment reflected BugBoom's approach to tackle food waste in a way that is close to daily life rather than abstract theory." },
+      { "type": "text", "value": "During the tour, the four founders' passion was evident. They even referred to the Black Soldier Flies as their \"babies,\" which I was a little resistant to. However, their sincerity made their commitment feel genuine. I appreciated how openly they shared their progress and challenges without avoiding the difficulties of running a startup." },
+      { "type": "text", "value": "What touched me most was the quiet support among startups in Vidacity. Although many may not survive beyond a year, founders still gather for coffee and conversations. It feels like an unspoken emotional support system." },
+      { "type": "text", "value": "We often learn that international expansion is necessary for a company to scale up. However, in reality, importing and exporting Black Soldier Flies is complicated due to strict policies and regulations. It made me realise how sustainability work is not just about having a good idea. It is also deeply shaped by regulatory systems and practical limitations." },
+      { "type": "text", "value": "Seeing their journey made the entrepreneurial frameworks I learned in class feel real. They were no longer distant theories on slides." }
+    ],
+    "keyTakeaways": []
   }
 ]

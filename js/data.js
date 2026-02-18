@@ -4,6 +4,7 @@
 
 let entries = null;
 let gallery = null;
+let backstory = null;
 let findings = null;
 let videos = null;
 let timeline = null;
@@ -13,9 +14,10 @@ let timeline = null;
  */
 export async function loadAllData() {
   try {
-    const [entriesRes, galleryRes, findingsRes, videosRes, timelineRes] = await Promise.all([
+    const [entriesRes, galleryRes, backstoryRes, findingsRes, videosRes, timelineRes] = await Promise.all([
       fetch('data/entries.json'),
       fetch('data/gallery.json'),
+      fetch('data/backstory.json'),
       fetch('data/findings.json'),
       fetch('data/videos.json'),
       fetch('data/timeline.json')
@@ -23,6 +25,7 @@ export async function loadAllData() {
 
     entries = await entriesRes.json();
     gallery = await galleryRes.json();
+    backstory = await backstoryRes.json();
     findings = await findingsRes.json();
     videos = await videosRes.json();
     timeline = await timelineRes.json();
@@ -41,6 +44,7 @@ export async function loadAllData() {
     // Provide empty arrays as fallback
     entries = entries || [];
     gallery = gallery || [];
+    backstory = backstory || [];
     findings = findings || [];
     videos = videos || [];
     timeline = timeline || [];
@@ -65,6 +69,11 @@ export function getEntryIndex(id) {
 /** Get all gallery items */
 export function getGallery() {
   return gallery || [];
+}
+
+/** Get all backstory items */
+export function getBackstory() {
+  return backstory || [];
 }
 
 /** Get all findings */

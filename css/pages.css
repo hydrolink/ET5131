@@ -412,6 +412,41 @@
 }
 
 /* ---- GALLERY PAGE ---- */
+
+/* Gallery tabs */
+.gallery-tabs {
+  display: flex;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-8);
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0;
+}
+
+.gallery-tab {
+  position: relative;
+  padding: var(--sp-3) var(--sp-6);
+  font-family: var(--font-display);
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-semi);
+  color: var(--text-dim);
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease-out);
+  letter-spacing: 0.5px;
+}
+
+.gallery-tab:hover {
+  color: var(--text-muted);
+}
+
+.gallery-tab.gallery-tab-active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+}
+
 .gallery-masonry {
   column-count: 3;
   column-gap: var(--sp-5);
