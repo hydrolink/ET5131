@@ -53,8 +53,9 @@
     transition: transform var(--duration-normal) var(--ease-out),
                 opacity var(--duration-normal) var(--ease-out);
     z-index: var(--z-overlay);
-    border-right: 1px solid var(--border);
-    width: 280px;
+    width: 100%;
+    min-height: calc(100vh - var(--navbar-height));
+    min-height: calc(100dvh - var(--navbar-height));
   }
 
   .nav-open .navbar-menu {

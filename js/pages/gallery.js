@@ -94,7 +94,32 @@ export function renderGallery() {
 
   function renderBackstoryTab() {
     clearElement(contentArea);
+
+    const anyItemHasTags = backstory.some(item => item.tags && item.tags.length > 0);
+
     grid = buildGrid(backstory);
+
+    filterBar = createGalleryFilterBar({
+      placeholder: 'Search backstory photos...',
+      onFilter: (searchTerm, activeTagsByCategory) => {
+        let filtered;
+        if (!anyItemHasTags && hasActiveFilters(activeTagsByCategory)) {
+          filtered = searchTerm
+            ? filterGalleryItems(backstory, searchTerm, {})
+            : backstory;
+        } else {
+          filtered = filterGalleryItems(backstory, searchTerm, activeTagsByCategory);
+        }
+        clearElement(grid);
+        const newGrid = buildGrid(filtered);
+        grid.replaceWith(newGrid);
+        grid = newGrid;
+        filterBar.updateResultsCount(filtered.length, backstory.length);
+        setTimeout(() => observeElements(), 50);
+      }
+    });
+
+    contentArea.appendChild(filterBar);
     contentArea.appendChild(grid);
     setTimeout(() => observeElements(), 50);
   }
