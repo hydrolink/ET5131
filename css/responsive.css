@@ -104,6 +104,24 @@
     grid-template-columns: 1fr;
   }
 
+  /* Findings filter tabs: scrollable on mobile */
+  .findings-tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+  }
+
+  .findings-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .findings-tabs .gallery-tab {
+    flex-shrink: 0;
+    font-size: var(--fs-lg);
+    padding: var(--sp-2) var(--sp-4);
+  }
+
   /* Videos: 2 columns (portrait videos fit well side-by-side on mobile) */
   .videos-grid {
     grid-template-columns: repeat(2, 1fr);

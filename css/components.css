@@ -461,6 +461,46 @@
   line-height: var(--lh-normal);
 }
 
+.insight-content--clamped {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.insight-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1);
+  margin-top: var(--sp-3);
+  padding: 0;
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  color: var(--primary);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color var(--duration-fast);
+}
+
+.insight-toggle:hover {
+  color: var(--primary-hover);
+}
+
+.insight-toggle::after {
+  content: '\2192';
+  transition: transform var(--duration-fast);
+}
+
+.insight-toggle:hover::after {
+  transform: translateX(3px);
+}
+
+.insight-toggle[aria-expanded="true"]::after {
+  content: '\2191';
+}
+
 .pin-badge {
   position: absolute;
   top: var(--sp-3);

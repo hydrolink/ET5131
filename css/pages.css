@@ -411,6 +411,11 @@
   gap: var(--sp-6);
 }
 
+/* ---- FINDINGS FILTER TABS ---- */
+.findings-tabs {
+  margin-bottom: var(--sp-6);
+}
+
 /* ---- GALLERY PAGE ---- */
 
 /* Gallery tabs */

@@ -211,15 +211,31 @@ export function renderFindingCard(finding) {
 
   const colorClass = categoryColors[finding.category] || '';
 
+  const contentEl = el('p', { className: 'insight-content insight-content--clamped' }, finding.content);
+
+  const toggleBtn = el('button', {
+    className: 'insight-toggle',
+    'aria-expanded': 'false'
+  }, 'Read more');
+
+  toggleBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isClamped = contentEl.classList.contains('insight-content--clamped');
+    contentEl.classList.toggle('insight-content--clamped');
+    toggleBtn.textContent = isClamped ? 'Show less' : 'Read more';
+    toggleBtn.setAttribute('aria-expanded', String(isClamped));
+  });
+
   const card = el('div', {
     className: `insight-card ${finding.pinned ? 'pinned' : ''}`,
-    dataset: { reveal: '' }
+    dataset: { reveal: '', category: finding.category }
   },
     finding.pinned ? el('div', { className: 'pin-badge', 'aria-label': 'Pinned insight' }, '★') : null,
     el('div', { className: 'insight-icon' }, finding.icon),
     el('span', { className: `insight-category ${colorClass}` }, finding.category),
     el('h3', { className: 'insight-title' }, finding.title),
-    el('p', { className: 'insight-content' }, finding.content)
+    contentEl,
+    toggleBtn
   );
 
   return card;
